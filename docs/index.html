@@ -1,0 +1,593 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+Steel-Concrete Composite Column Database
+</title>
+<style>
+html {
+  display: table;
+  margin: auto;
+}
+body {
+  max-width: 1000px;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Arial, Verdana, Sans-serif;
+}
+pre {
+  display: inline;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse; 
+  table-layout: fixed;
+}
+#heading {
+  text-align: center;
+}
+thead { 
+  border-bottom: 1px solid #000; 
+}
+tbody { 
+  border-bottom: 1px solid #000; 
+}
+tbody.sum { 
+  border-bottom: none; 
+}
+th {
+  width: 120px;
+}
+td {
+  width: 120px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div id="heading">
+<h1 id="topofpage">Steel-Concrete Composite Column Database</h1>
+<nav>
+    <a href="#scope">Scope</a> - 
+    <a href="#fields">Fields</a> - 
+    <a href="#specimennotes">Specimen Notes</a> (<a href="#prior1990s">Prior to 1990</a> • <a href="#1990s">1990s</a> • <a href="#2000s">2000s</a> • <a href="#2010s">2010s</a>) - 
+    <a href="#references">References</a>
+</nav>
+</div>
+<br>
+<p>This page describes a database of experimental tests on circular and rectangular concrete-filled steel tube and steel-reinforced concrete beams, columns, and beam-columns. The database is primarily intended to be used in the validation of analytical models and design procedures. The database was created and is maintained by Mark Denavit's research group at the University of Tennessee, Knoxville with significant contributions by Morgan Jenkins. The database and associated MATLAB files are available for download at github (<a href="https://github.com/denavit">browse</a> - <a href="https://github.com/denavit">download zip</a>). Please contact <a href='mai&#108;&#116;o&#58;&#109;%&#54;4%65n%61vi%7&#52;%40utk&#46;edu'>Mark Denavit</a> with any comments, corrections, additions, suggestions, or if you are interested in the original reports.</p>
+
+<h2 id="scope">Scope</h2>
+<p>The data is seperated based on cross section type:</p>
+<ul>
+  <li><pre>CCFT</pre> - circular concrete-filled steel tubes</li>
+  <li><pre>RCFT</pre> - rectangular concrete-filled steel tubes</li>
+  <li><pre>SRC</pre> - steel-reinforced concrete</li>
+</ul>
+
+<p>and member type:</p>
+<ul>
+  <li><pre>C+PBC</pre> - Columns and proportionality loaded beam-columns</li>
+  <li><pre>Beams</pre> - Members subjected primarily to bending moment with out axial load</li>
+  <li><pre>Other</pre> - Members subjected to axial load and bending moment but not falling in the other categories</li>
+</ul>
+
+Only members which could be accuratly described by the fields in this database and which obtained their member strength in the physical experiment were included. The following were excluded:
+<ul>
+  <li>Other section types (such as hollow tubes, sandwich tubes, and members with stiffeners)</li>
+  <li>Other types of loading (such as primarily shear or torsion)</li>
+  <li>Cyclically loaded specimens</li>
+  <li>Specimens with sustained or long-term loading</li>
+  <li>Specimens loaded such that the member strength is not obtained (such as push-out tests), connection tests, load not applied to the full composite cross section, strength not achieved due to limitations in the testing equipment)</li>
+  <li>Specimens with stainless steel</li>
+  <li>Specimens with expansive or fiber-reinforced concrete</li> 
+</ul>
+
+<p>Current count of specimens is in the database is:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Count</th> 
+    </tr>
+  </thead>
+  <tbody class="each">
+    <tr>
+      <td><pre>CCFT_C+PBC</pre></td>
+      <td>801 specimens</td> 
+    </tr>
+    <tr>
+      <td><pre>RCFT_C+PBC</pre></td>
+      <td>527 specimens</td> 
+    </tr>
+    <tr>
+      <td><pre>SRC_C+PBC</pre></td>
+      <td>151 specimens</td> 
+    </tr>
+    <tr>
+      <td><pre>CCFT_Beams</pre></td>
+      <td>12 specimens</td> 
+    </tr>
+    <tr>
+      <td><pre>RCFT_Beams</pre></td>
+      <td>6 specimens</td> 
+    </tr>
+    <tr>
+      <td><pre>CCFT_Other</pre></td>
+      <td>55 specimens</td> 
+    </tr>
+    <tr>
+      <td><pre>RCFT_Other</pre></td>
+      <td>64 specimens</td> 
+    </tr>
+  </tbody>
+  <tbody class="sum">
+    <tr>
+      <td>Total</td>
+      <td>1616 specimens</td> 
+    </tr>  
+  </tbody>
+</table>
+
+
+<h2 id="fields">Fields</h2>
+<h3>General Information</h3>
+<ul>
+  <li><pre>Author</pre> - Author of the original reference</li>
+  <li><pre>Year</pre> - Publication year of the original reference</li>
+  <li><pre>Specimen</pre> - Name of the specimen given in the original reference</li>
+  <li><pre>Tags</pre> - Extra information about the tests, Tags include:
+    <ul>
+      <li><pre>Greased</pre></li>
+      <li><pre>LightweightConcrete</pre></li>
+      <li><pre>PreloadedSteel</pre></li>
+      <li><pre>WeldFailure</pre></li>
+    </ul>
+  </li>
+  <li><pre>Notes</pre> - Miscellaneous additional information</li>
+</ul>
+
+<h3>Section Data</h3>
+<ul>
+  <li><pre>Fy, Fy_units</pre> - Measured yield stress of the steel shape and associated pressure units</li>
+  <li><pre>Fu, Fu_units</pre> - Measured ultimate stress of the steel shape and associated pressure units</li>
+  <li><pre>fc, fc_type, fc_units</pre> - Measured concrete compressive strength, test type, and associated pressure units. Test types include:
+    <ul>
+      <li><pre>Cylinder</pre></li>
+      <li><pre>Cube</pre></li>
+    </ul>
+  </li>
+</ul>  
+  
+<h4>Section Data Specific to CCFT Members</h4>
+<ul>
+  <li><pre>D, D_units</pre> - Measured outside diameter of the steel tube and associated length units</li>
+  <li><pre>t, t_units</pre> - Measured thickness of the steel tube and associated length units </li>
+</ul>  
+  
+<h4>Section Data Specific to RCFT Members</h4>
+<ul>
+  <li><pre>B, B_units</pre> - Measured width of the steel tube and associated length units</li>
+  <li><pre>H, H_units</pre> - Measured height of the steel tube and associated length units</li>
+  <li><pre>t, t_units</pre> - Measured thickness of the steel tube and associated length units</li>
+  <li><pre>SteelTubeType</pre> - Type of steel tube used for the specimen. Tube types include:
+    <ul>
+      <li><pre>ColdFormed</pre></li>
+      <li><pre>WeldedBox</pre></li>
+    </ul>  
+  </li>
+</ul>
+    
+<h4>Section Data Specific to SRC Members</h4>
+<ul>
+  <li><pre>B, B_units</pre> - Measured overall width of the composite cross section and associated length units</li>
+  <li><pre>H, H_units</pre> - Measured overall height of the composite cross section and associated length units</li>
+  <li><pre>shapeName</pre> - Name of the embedded steel shape</li>
+  <li><pre>d, d_units</pre> - Measured depth of the embedded steel shape and associated length units</li>
+  <li><pre>tw, tw_units</pre> -  Measured thickness of the web of the embedded steel shape and associated length units</li>
+  <li><pre>bf, bf_units</pre> - Measured width of the flange of the embedded steel shape and associated length units</li>
+  <li><pre>tf, tf_units</pre> - Measured thickness of the flange of the embedded steel shape and associated length units</li>
+  <li><pre>config_longitudinal</pre> - Configuration of the longitudinal reinforcement. Configurations include:
+    <ul>
+      <li><pre>2x-2y</pre></li>
+    </ul>  
+  </li>
+  <li><pre>db, db_units</pre> - Measured diameter of the longitudinal reinforcing bars and associated length units</li>
+  <li><pre>Fylr, Fylr_units</pre> - Measured yield stress of the longitudinal reinforcing steel and associated pressure units</li>
+  <li><pre>config_lateral</pre> - Configuration of the lateral reinforcement. Configurations include:
+    <ul>
+      <li><pre>none</pre></li>
+      <li><pre>ties</pre></li>
+    </ul>  
+  </li>
+  <li><pre>dbTies, dbTies_units</pre> - Measured diameter of the lateral reinforcing bars and associated length units</li>
+  <li><pre>s, s_units</pre> - Measured center-to-center spacing of the lateral reinforcing bars and associated length units</li>
+  <li><pre>Fytr, Fytr_units</pre> - Measured yield stress of the lateral reinforcing steel and associated pressure units</li>
+  <li><pre>cover, cover_units</pre> - Measured concrete cover measued from the center of the longitudinal reinforcement to the outside face of the composite cross section and associated length units</li>
+</ul>
+
+<h3>Member Data</h3>
+<ul>
+  <li><pre>LoadDeformation</pre> - "yes" or "no" depending on whether or not load deformation results are available</li>
+  <li><pre>BendingAxis</pre> - "strong" or "weak" depending on the axis of bending of the specimen
+    <ul>
+      <li>Not included for CCFT, which are symmetric</li>
+      <li>Typically listed at "strong" for Square CFT</li>
+    </ul>
+  </li>
+</ul>    
+
+<h4>Member Data Specific to Columns and Proportionally-Loaded Beam-Columns (C+PBC)</h4>
+<ul>
+  <li><pre>L, L_units</pre> - Measured length of the member and associated length units</li>
+  <li><pre>Pexp, Pexp_units</pre> - Maximum load from the experiment and associated force units</li> 
+  <li><pre>dAtPexp, dAtPexp_units</pre> - Lateral deformation at the mid-height of the column when the maximum load (<pre>Pexp</pre>) is obtained</li>
+  <li><pre>et, et_units</pre> - Load eccentricity at the top of the column and associated length units</li>
+  <li><pre>eb, eb_units</pre> - Load eccentricity at the bottom of the column and associated length units. Left blank if et = eb</li>
+</ul>
+
+<h4>Member Data Specific to Beams</h4>
+<ul>
+  <li><pre>Mexp, Mexp_units</pre> - Maximum bending moment from the experiment and associated moment units</li>
+</ul>
+
+<h4>Member Data Specific to Other</h4>
+<ul>
+  <li><pre>KL, KL_units</pre> - Measured effective length of the member and associated length units</li>
+  <li><pre>Pexp, Pexp_units</pre> - Measured axial load at limit point from the experiment and associated force units</li> 
+  <li><pre>M1exp, M1exp_units</pre> - Maximum first-order bending moment at the limit point from the experiment and associated moment units</li>
+  <li><pre>M2exp, M2exp_units</pre> - Maximum second-order bending moment at the limit point from the experiment and associated moment units</li>
+</ul>
+
+<h2 id="specimennotes">Specimen Notes</h2>
+<h3 id="prior1990s">Prior to 1990</h3>
+<ul>
+  <li>
+    <b>Klöppel & Goder 1957</b> - <i>46 CCFT C+PBC</i>
+    <ul>
+      <li>Original report is in German, the listed data are taken from Knowles & Park (1970).</li>
+    </ul>
+  </li>
+  
+  <li><b>Salani & Sims 1964</b> - <i>17 CCFT C+PBC</i></li>
+  
+  <li>
+    <b>Stevens 1965</b> - <i>57 SRC C+PBC</i>
+    <ul>
+      <li>Some data taken from Aho & Leon (1997)</li>
+    </ul>
+  </li>
+  
+  <li>
+    <b>Chapman & Neogi 1966</b> - <i>18 Total (16 CCFT C+PBC, 2 RCFT C+PBC)</i>
+    <ul>
+      <li>Original report is unavailable, the listed data are taken from Knowles & Park (1970).</li>
+      <li>Knowles & Park applied a factor of 0.8 to the concrete strength to convert for the cube strength given in the original report. Thus, <pre>fc_type</pre> is listed as <pre>cylinder</pre>.</li>
+    </ul>
+  </li>
+  
+  <li>
+    <b>Furlong 1967</b> - <i>52 Total (8 CCFT C+PBC, 5 RCFT C+PBC, 22 CCFT Other, 17 RCFT Other)</i>
+    <ul>
+      <li>Specimen names were not given in the original report, the listed names were created for this database.</li>
+      <li>The length of the specimens was described as "short" in the original report. For the column specimens, the length was taken from Knowles & Park (1970). FOr the beam-column specimens, the length was taken from Task Group 20, SSRC (1979).</li>
+    </ul>
+  </li>
+  
+  <li><b>Gardner & Jacobson 1967</b> - <i>24 CCFT C+PBC</i></li>
+
+  <li><b>Gardner 1968</b> - <i>19 CCFT C+PBC</i></li>
+
+  <li>
+    <b>Knowles & Park 1969</b> - <i>27 Total (17 CCFT C+PBC, 10 RCFT C+PBC)</i>
+    <ul>
+      <li>Specimen names were not given in the original report, the listed names were created for this database.</li> 
+      <li>The concrete strength for each specimen was not listed in the original report. For the column specimens, the concrete strength was taken from Knowles & Park (1970). For the beam-column specimens, an average value of 6000 psi was used.</li>
+    </ul>
+  </li>
+
+  <li><b>Neogi et al. 1969</b> - <i>18 CCFT C+PBC</i></li>
+
+  <li><b>Guiaux & Janss 1970</b> - <i>24 CCFT C+PBC</i></li>
+  
+  <li><b>Anslijn & Janss 1974</b> - <i>39 SRC C+PBC</i></li>
+  
+  <li>
+    <b>Roderick & Loke 1975</b> - <i>18 SRC C+PBC</i>
+    <ul>
+      <li>The steel shapes have a slope on the inner flange surfaces.</li>
+      <li>Data for strong axis specimens taken from Aho & Leon (1997).</li>  
+    </ul>
+  </li>
+
+  <li><b>Bridge 1976</b> - <i>4 RCFT C+PBC</i></li>
+  
+  <li><b>Tomii & Sakino 1979</b> - <i>36 Total (8 RCFT C+PBC, 28 RCFT Other)</i></li>
+  
+  <li>
+    <b>Cai & Jiao 1984</b> - <i>45 CCFT C+PBC</i>
+    <ul>
+      <li>Only speciments loaded on the entire composite cross section were included (loading type "B").</li>
+      <li>Specimen G-68 was excluded because it was constructed with two seperate steel tubes.</li>
+    </ul>
+  </li>
+  
+  <li><b>Cai & Gu 1985</b> - <i>26 CCFT C+PBC</i></li>
+
+  <li><b>Sakino et al. 1985</b> - <i>10 CCFT C+PBC</i></li>
+  
+  <li>
+    <b>Lin 1988</b> - <i>18 Total (6 CCFT C+PBC, 12 RCFT C+PBC)</i>
+    <ul>
+      <li>The steel yield stress is not listed explicitly in the original report. It was computed from data given in the original report as 2.5 tonnes/cm^2.</li>
+    </ul>
+  </li>
+  
+  <li><b>Shakir-Khalil & Zeghiche 1989</b> - <i>5 RCFT C+PBC</i></li>
+</ul>
+
+<h3 id="1990s">1990s</h3>
+<ul>
+  <li><b>Shakir-Khalil & Mouli 1990</b> - <i>15 RCFT C+PBC</i></li>
+  
+  <li><b>Cai 1991</b> - <i>27 CCFT C+PBC</i></li>
+  
+  <li><b>Luksha & Nesterovich 1991</b> - <i>10 CCFT C+PBC</i></li>
+  
+  <li><b>Masuo et al. 1991</b> - <i>10 CCFT C+PBC</i>
+    <ul>
+      <li>Strength results are the mean value of 2 or 3 duplicate specimens.</li>
+    </ul>
+  </li>
+
+  <li><b>Sakino & Hayashi 1991</b> - <i>12 CCFT C+PBC</i></li>
+  
+  <li><b>Chen et al. 1992</b> - <i>7 SRC C+PBC</i></li>
+  
+  <li><b>Han et al. 1992</b> - <i>10 SRC C+PBC</i></li>
+  
+  <li><b>Rangan & Joyce 1992</b> - <i>9 CCFT C+PBC</i></li>
+  
+  <li><b>Bergmann 1994</b> - <i>6 Total (2 CCFT C+PBC, 4 RCFT C+PBC)</i></li>
+  
+  <li><b>Fujii 1994</b> - <i>15 CCFT C+PBC</i></li>
+  
+  <li><b>Kenny et al. 1994</b> - <i>6 CCFT C+PBC</i></li>
+  
+  <li><b>Han & Kim 1995</b> - <i>20 SRC C+PBC</i></li>
+  
+  <li><b>Matsui & Tsuda 1996</b> - <i>48 Total (24 CCFT C+PBC, 24 RCFT C+PBC)</i></li>
+  
+  <li><b>O'Shea & Bridge 1997a</b> - <i>7 CCFT C+PBC</i>
+    <ul>
+      <li>Includes only tests not listed in O'Shea & Bridge (2000).</li>
+    </ul>
+  </li>
+
+  <li><b>Schneider 1998</b> - <i>14 Total (3 CCFT C+PBC, 11 RCFT C+PBC)</i></li>
+  
+  <li><b>Kilpatrick & Rangan 1999</b> - <i>40 CCFT C+PBC</i></li>
+  
+  <li><b>Tan et al. 1999</b> - <i>16 CCFT C+PBC</i></li>
+</ul>
+
+<h3 id="2000s">2000s</h3>
+<ul>
+  <li><b>Han & Yan 2000</b> - <i>11 CCFT C+PBC</i></li>
+  
+  <li><b>Johansson et al. 2000</b> - <i>1 CCFT C+PBC</i>
+    <ul>
+      <li>Strength results are the mean value of 3 similar specimens.</li>
+    </ul>
+  </li>
+
+  <li><b>O'Shea & Bridge 2000</b> - <i>38 CCFT C+PBC</i>
+    <ul>
+      <li>Results also reported in O'Shea & Bridge (1997a,b).</li>
+    </ul>
+  </li>
+  
+  <li><b>Varma 2000</b> - <i>12 Total (4 RCFT C+PBC, 8 RCFT Other)</i></li>
+
+  <li><b>Yamamoto et al. 2000</b> - <i>21 Total (13 CCFT C+PBC, 8 RCFT C+PBC)</i></li>
+
+  <li><b>Elchalakani et al. 2001</b> - <i>12 CCFT Beams</i></li>
+
+  <li><b>Johansson & Gylltoft 2002</b> - <i>1 CCFT C+PBC</i>
+    <ul>
+      <li>Strength results are the mean value of 3 similar specimens.</li>
+    </ul>
+  </li>
+
+  <li><b>Chen & Hikosaka 2003</b> - <i>17 CCFT C+PBC</i></li>
+
+  <li><b>Gopal & Manoharan 2003</b> - <i>3 CCFT C+PBC</i></li>
+
+  <li><b>Han & Yang 2003</b> - <i>4 RCFT C+PBC</i></li>
+
+  <li><b>Han & Yao 2003a</b> - <i>35 RCFT C+PBC</i></li>
+  
+  <li><b>Han & Yao 2003b</b> - <i>42 Total (23 CCFT C+PBC, 19 RCFT C+PBC)</i></li>
+
+  <li><b>Mursi et al. 2003</b> - <i>4 RCFT C+PBC</i></li>
+
+  <li><b>Uenaka et al. 2003</b> - <i>3 CCFT C+PBC</i></li>
+
+  <li><b>Fujimoto et al. 2004</b> - <i>65 Total (33 CCFT Other, 21 RCFT C+PBC, 11 RCFT Other)</i></li>
+
+  <li><b>Ghannam et al. 2004</b> - <i>36 Total (12 CCFT C+PBC, 24 RCFT C+PBC)</i></li>
+
+  <li><b>Giakoumelis & Lam 2004</b> - <i>13 CCFT C+PBC</i></li>
+
+  <li><b>Han et al. 2004</b> - <i>2 RCFT C+PBC</i></li>
+
+  <li><b>Han & Yao 2004</b> - <i>38 Total (22 CCFT C+PBC, 16 RCFT C+PBC)</i></li>
+
+  <li><b>Lam & Williams 2004</b> - <i>15 RCFT C+PBC</i></li>
+
+  <li><b>Sakino et al. 2004</b> - <i>84 Total (36 CCFT C+PBC, 48 RCFT C+PBC)</i></li>
+  
+  <li><b>Tao et al. 2007</b> - <i>18 CCFT C+PBC</i></li>
+
+  <li><b>Zhang & Guo 2007</b> - <i>26 RCFT C+PBC</i></li>
+
+  <li><b>Yu et al. 2008</b> - <i>28 Total (14 RCFT C+PBC, 14 CCFT C+PBC)</i></li>
+</ul>
+  
+<h3 id="2010s">2010s</h3>
+<ul>
+  <li><b>Lee et al. 2011</b> - <i>11 CCFT C+PBC</i></li>
+
+  <li><b>Muciaccia et al. 2011</b> - <i>16 CCFT C+PBC</i></li>
+
+  <li><b>Portolés et al. 2011</b> - <i>32 CCFT C+PBC</i></li>
+  
+  <li><b>Dundu 2012</b> - <i>24 CCFT C+PBC</i></li>
+  
+  <li><b>Hernández-Figueirido et al. 2012a</b> - <i>32 RCFT C+PBC</i>
+    <ul>
+      <li>Includes only tests not listed in Hernández-Figueirido et al. (2012b).</li>
+    </ul>  
+  </li>
+  
+  <li><b>Hernández-Figueirido et al. 2012b</b> - <i>36 RCFT C+PBC</i></li>
+  
+  <li><b>Guler et al. 2013</b> - <i>7 CCFT C+PBC</i></li>
+  
+  <li><b>Portolés et al. 2013</b> - <i>9 CCFT C+PBC</i></li>
+  
+  <li><b>Qu et al. 2013</b> - <i>9 RCFT C+PBC</i></li>
+   
+  <li><b>Ding et al. 2014</b> - <i>3 RCFT C+PBC</i></li>
+  
+  <li><b>Aslani et al. 2015</b> - <i>12 RCFT C+PBC</i></li>
+
+  <li><b>Du et al. 2016a</b> - <i>6 RCFT C+PBC</i></li>
+  
+  <li><b>Du et al. 2016b</b> - <i>8 RCFT C+PBC</i></li>
+  
+  <li><b>Dundu 2016</b> - <i>27 RCFT C+PBC</i></li>
+  
+  <li><b>Ekmekyapar & AL-Eliwi 2016</b> - <i>18 CCFT C+PBC</i></li>
+  
+  <li><b>Lee et al. 2016</b> - <i>3 RCFT C+PBC</i></li>
+  
+  <li><b>Du et al. 2017</b> - <i>12 RCFT C+PBC</i></li>
+  
+  <li><b>Khan et al. 2017</b> - <i>39 RCFT C+PBC</i></li>
+  
+  <li><b>Li et al. 2017</b> - <i>6 RCFT Beams</i></li>
+  
+  <li><b>Romero et al. 2017</b> - <i>2 CCFT C+PBC</i></li>
+</ul>
+
+
+
+<h2 id="references">References</h2>
+
+<ul id="id01">
+  <li>Aho, M. F. and Leon, R. T. (1997). A Database for Encased and Concrete-Filled Columns. Report #97-01, School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, Georgia.</li>
+  <li>Anslijn, R. and Janss, J. (1974). Le Calcul des Charges Ultimes des Colonnes Métalliques Enrobées de Béton. Rapport MT 89, C.R.I.F., Brussels, Belgium.</li>
+  <li>Aslani, F., Uy, B., Tao, Z., and Mashiri, F. (2015). "Behaviour and design of composite columns incorporating compact high-strength steel plates." Journal of Constructional Steel Research, 107, 94–110. <doi>10.1016/j.jcsr.2015.01.005</doi></li>
+  <li>Bergmann, R. (1994). “Load introduction in composite columns filled with high strength concrete.” Tubular Structures VI, Proceedings of 6th International Symposium on Tubular Structures, Melbourne, Australia, 373–380.</li>
+  <li>Bridge, R. Q. (1976). Concrete Filled Steel Tubular Columns. Research Report No. R283, School of Civil Engineering, University of Sydney, Sydney, Australia.</li>
+  <li>Cai, S. H. and Gu, W. L. (1985). “Behavior and Ultimate Strength of Long Concrete-Filled Steel Tubular Columns.” Journal of Building Structures, 32–40. (in Chinese)</li>
+  <li>Cai, S. and Jiao, Z. (1984). “Behavior and Ultimate Strength of Short Concrete-Filled Steel Tubular Columns.” Journal of Building Structures, 13–29. (in Chinese)</li>
+  <li>Cai, S.-H. (1991). “Influence of Moment Distribution Diagram on Load-Carrying Capacity of Concrete-Filled Steel Tubular Columns,” Proceedings of the Third International Conference on Steel-Concrete Composite Structures, Wakabayashi, M. (ed.), Fukuoka, Japan, September 26-29, 1991, Association for International Cooperation and Research in Steel-Concrete Composite Structures, pp. 113-118.</li>
+  <li>Chapman, J. C. and Neogi, P. K. (1966). “Research on Concrete Filled Tubular Columns.” Engineering Structures Laboratories Report, Imperial College, London.</li>
+  <li>Chen, B. and Hikosaka, H. (2003). “Eccentricity Ratio Effect on the Behavior of Eccentrically Loaded CFST Columns.” Proceedings ASSCCA’03 International Conference Advances in Structures (ASCCS-7), Sydney, Australia, 973–978.</li>
+  <li>Chen, C., Astaneh-Asl, A., and Moehle, J. P. (1992). “Behavior and Design of High Strength Composite Columns.” Structures Congress ’92, ASCE, San Antonio, Texas, 820–823.</li>
+  <li>Ding, F., Fang, C., Bai, Y., and Gong, Y. (2014). "Mechanical performance of stirrup-confined concrete-filled steel tubular stub columns under axial loading." Journal of Constructional Steel Research, 98, 146–157. <doi>10.1016/j.jcsr.2014.03.005</doi></li>
+  <li>Du, Y., Chen, Z., Wang, Y.-B., and Liew, J. Y. R. (2017). “Ultimate resistance behavior of rectangular concrete-filled tubular beam-columns made of high-strength steel.” Journal of Constructional Steel Research, 133, 418–433. <doi>10.1016/j.jcsr.2017.02.024</doi></li>  
+  <li>Du, Y., Chen, Z., and Xiong, M.-X. (2016a). "Experimental behavior and design method of rectangular concrete-filled tubular columns using Q460 high-strength steel." Construction and Building Materials, 125, 856–872. <doi>10.1016/j.conbuildmat.2016.08.057</doi></li>
+  <li>Du, Y., Chen, Z., and Yu, Y. (2016b). "Behavior of rectangular concrete-filled high-strength steel tubular columns with different aspect ratio." Thin-Walled Structures, 109, 304–318. <doi>10.1016/j.tws.2016.10.005</doi></li>
+  <li>Dundu, M. (2012). "Compressive strength of circular concrete filled steel tube columns." Thin-Walled Structures, 56, 62–70. <doi>10.1016/j.tws.2012.03.008</doi></li>
+  <li>Dundu, M. (2016). "Column buckling tests of hot-rolled concrete filled square hollow sections of mild to high strength steel." Engineering Structures, 127, 73–85. <doi>10.1016/j.engstruct.2016.08.039</doi></li>
+  <li>Ekmekyapar, T. and AL-Eliwi, B. J. M. (2016). "Experimental behaviour of circular concrete filled steel tube columns and design specifications." Thin-Walled Structures, 105, 220–230. <doi>10.1016/j.tws.2016.04.004</doi></li>
+  <li>Elchalakani, M., Zhao, X. L., and Grzebieta, R. H. (2001). “Concrete-Filled Circular Steel Tubes Subjected to Pure Bending.” Journal of Constructional Steel Research, 57(11), 1141–1168. <doi>10.1016/S0143-974X(01)00035-9</doi></li>
+  <li>Fujii, K. (1994). “Structural and Ultimate Behavior of Two Types of Mortar Filled Steel Tubes in Compression.” Proceedings of the 4th ASCCS International Conference, Košice, Slovakia, 194–197.</li>
+  <li>Fujimoto, T., Mukai, A., Nishiyama, I., and Sakino, K. (2004). “Behavior of Eccentrically Loaded Concrete-Filled Steel Tubular Columns.” Journal of Structural Engineering, 130(2), 203. <doi>10.1061/(ASCE)0733-9445(2004)130:2(203)</doi></li>
+  <li>Furlong, R. W. (1967). “Strength of Steel-Encased Concrete Beam Columns,” Journal of the Structural Division, ASCE, 93(5), 113-124.</li>
+  <li>Gardner, N. J. (1968). “Use of Spiral Welded Steel Tubes in Pipe Columns,” Journal of the American Concrete Institute, 65(11), 937-942.</li>
+  <li>Gardner, N. J. and Jacobson, E. R. (1967). “Structural Behavior of Concrete Filled Steel Tubes,” Journal of the American Concrete Institute, 64(11), 404-413.</li>
+  <li>Ghannam, S., Jawad, Y. A., and Hunaiti, Y. (2004). “Failure of Lightweight Aggregate Concrete-Filled Steel Tubular Columns,” Steel and Composite Structures, Vol. 4, No. 1, pp. 1-8. <doi>10.12989/scs.2004.4.1.001</doi></li>
+  <li>Giakoumelis, G. and Lam, D. (2004). “Axial Capacity of Circular Concrete-Filled Tube Columns.” Journal of Constructional Steel Research, 60(7), 1049–1068. <doi>10.1016/j.jcsr.2003.10.001</doi></li>
+  <li>Gopal, S. R. and Manoharan, P. D. (2003). “Structural Behavior of Slender Steel Tubular Columns Infilled with Fibre Reinforced Concrete.” Proceedings ASSCCA’03 International Conference Advances in Structures (ASCCS-7), Sydney, Australia, 871–875.</li>
+  <li>Guiaux, P. and Janss, J. (1970). Comportement au Flambement de Colonnes Constituees de Tubes en Acier Remplis de Beton. C.R.I.F., Brussels, Belgium.</li>
+  <li>Guler, S., Çopur, A., and Aydogan, M. (2013). "Axial capacity and ductility of circular UHPC-filled steel tube columns." Magazine of Concrete Research, 65(15) 898-905. <doi>10.1680/macr.12.00211</doi></li>
+  <li>Han, D. J. and Kim, K. S. (1995). “A Study on the Strength and Hysteretic Characteristics of Steel Reinforced Concrete Columns.” Journal of the Architectural Institute of Korea, 11(4), 183–190.</li>
+  <li>Han, D. J., Kim, P. J., and Kim, K. S. (1992). “The Influence of Hoop Bar on the Compressive Strength of Short Steel Reinforced Concrete Columns.” Journal of the Architectural Institute of Korea, 12(1), 335–338.</li>
+  <li>Han, L. H., Tao, Z., and Liu, W. (2004). “Effects of Sustained Load on Concrete-Filled Hollow Structural Steel Columns.” Journal of Structural Engineering, 130(9), 1392–1404. <doi>10.1061/(ASCE)0733-9445(2004)130:9(1392)</doi></li>
+  <li>Han, L. H. and Yang, Y. F. (2003). “Analysis of thin-walled steel RHS columns filled with concrete under long-term sustained loads.” Thin-Walled Structures, 41(9), 849–870. <doi>10.1016/S0263-8231(03)00029-6</doi></li>
+  <li>Han, L. H. and Yao, G. H. (2003a). “Influence of concrete compaction on the strength of concrete-filled steel RHS columns.” Journal of Constructional Steel Research, 59(6), 751–767. <doi>10.1016/S0143-974X(02)00076-7</doi></li>
+  <li>Han, L. H. and Yao, G. H. (2003b). “Behaviour of concrete-filled hollow structural steel (HSS) columns with pre-load on the steel tubes.” Journal of Constructional Steel Research, 59(12), 1455–1475. <doi>10.1016/S0143-974X(03)00102-0</doi></li>
+  <li>Han, L. H. and Yao, G. H. (2004). “Experimental Behaviour of Thin-Walled Hollow Structural Steel (HSS) Columns Filled with Self-Consolidating Concrete (SCC).” Thin-Walled Structures, 42(9), 1357–1377. <doi>10.1016/j.tws.2004.03.016</doi></li>
+  <li>Han, L. H. and Yan, S. Z. (2000). “Experimental Studies on the Strength with High Slenderness Ratio Concrete Filled Steel Tubular Column.” Composite and Hybrid Structures, Proceedings of the Sixth ASCCS International Conference on Steel-Concrete Composite Structures, Los Angeles, California, 419–425.</li>
+  <li>Hernández-Figueirido, D., Romero, M. L., Bonet, J. L., and Montalvá, J. M. (2012a). "Influence of Slenderness on High-Strength Rectangular Concrete-Filled Tubular Columns with Axial Load and Nonconstant Bending Moment." Journal of Structural Engineering, 138(12), 1436–1445. <doi>10.1061/(ASCE)ST.1943-541X.0000590</doi></li>
+  <li>Hernández-Figueirido, D., Romero, M. L., Bonet, J. L., and Montalvá, J. M. (2012b). "Ultimate capacity of rectangular concrete-filled steel tubular columns under unequal load eccentricities." Journal of Constructional Steel Research, 68(1), 107–117. <doi>10.1016/j.jcsr.2011.07.014</doi></li>
+  <li>Johansson, M. and Gylltoft, K. (2002). “Mechanical Behavior of Circular Steel–Concrete Composite Stub Columns.” Journal of Structural Engineering, ASCE, 128(8), 1073–1081.<doi>10.1061/(ASCE)0733-9445(2002)128:8(1073)</doi></li>
+  <li>Johansson, M., Claeson, C., Gylltoft, K., and Akesson, M. (2000). “Structural Behavior of Circular Composite Columns Under Various Means of Load Application.” Composite and Hybrid Structures, Proceedings of the Sixth ASCCS International Conference on Steel-Concrete Composite Structures, Los Angeles, California, 427–434. <doi>10.12989/scs.2001.1.4.393</doi></li>
+  <li>Kenny, J. R., Bruce, D. A., and Bjorhovde, R. (1994). “Removal of Yield Stress Limitation for Composite Tubular Columns.” Engineering Journal, AISC, 31(1), 1–11.</li>
+  <li>Khan, M., Uy, B., Tao, Z., and Mashiri, F. (2017). "Concentrically loaded slender square hollow and composite columns incorporating high strength properties." Engineering Structures, 131, 69–89. <doi>10.1016/j.engstruct.2016.10.015</doi></li>
+  <li>Kilpatrick, A. E. and Rangan, B. V. (1999). “Tests on High-Strength Concrete-Filled Steel Tubular Columns.” ACI Structural Journal, 96(2), 268–274.</li>
+  <li>Klöppel, V. K. and Goder, W. (1957). “Traglastversuche mit ausbetonierten Stahlrohren und Aufstellung einer Bemessungsformel.” Der Stahlbau, 26(1), 1-10. (in German)</li>
+  <li>Knowles, R. B. and Park, R. (1969). “Strength of Concrete Filled Steel Tubular Columns,” Journal of the Structural Division, ASCE, 95(12), 2565-2587.</li>
+  <li>Knowles, R. B. and Park, R. (1970). “Axial Load Design for Concrete Filled Steel Tubes,” Journal of the Structural Division, ASCE, 96(10), 2125–2153.</li>
+  <li>Lam, D. and Williams, C. A. (2004). “Experimental Study on Concrete Filled Square Hollow Sections.” Steel and Composite Structures, 4(2), 95–112. <doi>10.12989/scs.2004.4.2.095</doi></li>
+  <li>Lee, H.-J., Choi, I.-R., and Park, H.-G. (2016). "Eccentric Compression Strength of Rectangular Concrete-Filled Tubular Columns Using High-Strength Steel Thin Plates." Journal of Structural Engineering, 143(5), 04016228. <doi>10.1061/(ASCE)ST.1943-541X.0001724</doi></li>
+  <li>Lee, S.-H., Uy, B., Kim, S.-H., Choi, Y.-H., and Choi, S.-M. (2011). "Behavior of high-strength circular concrete-filled steel tubular (CFST) column under eccentric loading." Journal of Constructional Steel Research, 67(1), 1–13. <doi>10.1016/j.jcsr.2010.07.003</doi></li>
+  <li>Li, G., Liu, D., Yang, Z., and Zhang, C. (2017). "Flexural behavior of high strength concrete filled high strength square steel tube." Journal of Constructional Steel Research, 128, 732–744. <doi>10.1016/j.jcsr.2016.10.007</doi></li>
+  <li>Lin, C. Y. (1988). “Axial Capacity of Concrete Infilled Cold-Formed Steel Columns.” Ninth International Specialty Conference on Cold-Formed Steel Structures, St. Louis, Missouri, U.S.A., 443–457.</li>
+  <li>Luksha, L. K. and Nesterovich, A. P. (1991). “Strength of Tubular Concrete Cylinders under Combined Loading.” Proceedings of 3rd International Conference on Steel-Concrete Composite Structures, Fukuoka, Japan, 67–71.</li>
+  <li>Masuo, K., Adachi, M., Kawabata, K., Kobayashi, M., and Konishi, M. (1991). “Buckling Behavior of Concrete Filled Circular Steel Tubular Columns Using Light-Weight Concrete.” Proceedings 3rd ASCCS International Conference on Composite Construction, Fukuoka, Japan, 95–100.</li>
+  <li>Matsui, C. and Tsuda, K. (1996). “Strength And Behavior Of Slender Concrete Filled Steel Tubular Columns.” Proceedings of The Second International Symposium on Civil Infrastructure Systems, P. T. Y. Chang, L. W. Lu, and L. Wei, eds., Hong Kong, China.</li>
+  <li>Muciaccia, G., Giussani, F., Rosati, G., and Mola, F. (2011). "Response of self-compacting concrete filled tubes under eccentric compression." Journal of Constructional Steel Research, 67(5), 904–916. <doi>10.1016/j.jcsr.2010.11.003</doi></li>
+  <li>Mursi, M., Uy, B., and Bradford, M. A. (2003). “Interaction Buckling of Concrete Filled Columns Using High Strength Steel.” Proceedings ASSCCA’03 International Conference Advances in Structures (ASCCS-7), Sydney, Australia, 863–869.</li>
+  <li>Neogi, P. K., Sen, H. K., and Chapman, J. C. (1969). “Concrete-Filled Tubular Steel Columns Under Eccentric Loading.” The Structural Engineer, 47(5), 187–195.</li>
+  <li>O’Shea, M. D. and Bridge, R. (1997a). Tests on Circular Thin-Walled Steel Tubes Filled with Very High Strength Concrete. Research Report No. R754, Department of Civil Engineering, The University of Sydney, Sydney, Australia.</li>
+  <li>O’Shea, M. D. and Bridge, R. (1997b). Tests on Circular Thin-Walled Steel Tubes Filled with Medium and High Strength Concrete. Research Report No. R755, Department of Civil Engineering, The University of Sydney, Sydney, Australia.</li>
+  <li>O’Shea, M. D. and Bridge, R. Q. (2000). “Design of Circular Thin-Walled Concrete Filled Steel Tubes.” Journal of Structural Engineering, 126(11), 1295–1303. <doi>10.1061/(ASCE)0733-9445(2000)126:11(1295)</doi></li>
+  <li>Portolés, J. M., Romero, M. L., Bonet, J. L., and Filippou, F. C. (2011). "Experimental study of high strength concrete-filled circular tubular columns under eccentric loading." Journal of Constructional Steel Research, 67(4), 623–633. <doi>10.1016/j.jcsr.2010.11.017</doi></li>
+  <li>Portolés, J. M., Serra, E., and Romero, M. L. (2013). "Influence of ultra-high strength infill in slender concrete-filled steel tubular columns." Journal of Constructional Steel Research, 86, 107–114. <doi>10.1016/j.jcsr.2013.03.016</doi></li>
+  <li>Qu, X., Chen, Z., and Sun, G. (2013). "Experimental study of rectangular CFST columns subjected to eccentric loading." Thin-Walled Structures, 64, 83–93. <doi>10.1016/j.tws.2012.12.006</doi></li>
+  <li>Rangan, B. V. and Joyce, M. (1992). “Strength of Eccentrically Loaded Slender Steel Tubular Columns Filled With High-Strength Concrete.” ACI Structural Journal, 89(6), 676–681.</li>
+  <li>Roderick, J. W. and Loke, Y. O. (1975). “Pin-Ended Composite Columns Bent About the Minor Axis.” Civil Engineering Transactions, 17(2), 51–58.</li>
+  <li>Romero, M. L., Ibañez, C., Espinos, A., Portolés, J. M., and Hospitaler, A. (2017). "Influence of Ultra-high Strength Concrete on Circular Concrete-filled Dual Steel Columns." Structures, 9, 13–20. <doi>10.1016/j.istruc.2016.07.001</doi></li>
+  <li>Sakino, K. and Hayashi, H. (1991). “Behavior of Concrete Filled Steel Tubular Stub Columns under Concentric Loading.” Proceedings of 3rd International Conference on Steel-Concrete Composite Structures, Fukuoka, Japan, 25–30.</li>
+  <li>Sakino, K., Nakahara, H., Morino, S., and Nishiyama, I. (2004). “Behavior of Centrally Loaded Concrete-Filled Steel-Tube Short Columns.” Journal of Structural Engineering, ASCE, 130(2), 180–188. <doi>10.1061/(ASCE)0733-9445(2004)130:2(180)</doi></li>
+  <li>Sakino, K., Tomii, M., and Watanabe, K. (1985). “Sustaining Load Capacity of Plain Concrete Stub Columns Confined by Circular Steel Tube.” Proceedings 1st ASCCS International Conference on Steel-Concrete Composite Structures, Harbin, China, 112–118.</li>
+  <li>Salani, H. R. and Sims, J. R. (1964).  “Behavior of Mortar Filled Steel Tubes in Compression,” Journal of the American Concrete Institute, 61(10), 1271-1283.</li>
+  <li>Schneider, S. P. (1998). “Axially Loaded Concrete-Filled Steel Tubes.” Journal of Structural Engineering, ASCE, 124(10), 1125–1138.<doi>10.1061/(ASCE)0733-9445(1998)124:10(1125)</doi></li>
+  <li>Shakir-Khalil, H. and Mouli, M. (1990). “Further Tests on Concrete-Filled Rectangular Hollow-Section Columns,” The Structural Engineer, 68(20), 405-413.</li>
+  <li>Shakir-Khalil, H. and Zeghiche, J. (1989). “Experimental Behaviour of Concrete-Filled Rolled Rectangular Hollow-Section Columns.” The Structural Engineer, 67, 346–353.</li>
+  <li>Stevens, R. F. (1965). “Encased Stanchions.” The Structural Engineer, 43(2), 59–66.</li>
+  <li>Tan, K., Pu, X., and Cai, S. (1999). “Study on the Mechanical Properties of Steel Extra-high Strength Concrete Encased in Steel Tubes.” Journal of Building Structures, 20(1), 10–15. (in Chinese)</li>
+  <li>Tao, Z., Han, L.-H., and Wang, D.-Y. (2007). “Experimental behaviour of concrete-filled stiffened thin-walled steel tubular columns.” Thin-Walled Structures, 45(5), 517–527. <doi>10.1016/j.tws.2007.04.003</doi></li>
+  <li>Task Group 20, SSRC. (1979). “A Specification for the Design of Steel-Concrete Composite Columns.” Engineering Journal, AISC, 16(4), 101–115.</li>
+  <li>Tomii, M. and Sakino, K. (1979). “Experimental Studies on the Ultimate Moment of Concrete Filled Square Steel Tubular Beam-Columns,” Transactions of the Architectural Institute of Japan, 275, 55-63.</li>
+  <li>Uenaka, K., Hayami, M., Kitoh, H., and Sonoda, K. (2003). “Experimental Study on Concrete Filled Double Tubular Steel Columns under Axial Loading.” Proceedings ASSCCA’03 International Conference Advances in Structures (ASCCS-7), Sydney, Australia, 877–882.</li>
+  <li>Varma, A. H. (2000). “Seismic Behavior, Analysis, and Design of High Strength Square Concrete Filled Steel Tube (CFT) Columns,” Ph.D. dissertation, Department of Civil Engineering, Lehigh University, Bethlehem, Pennsylvania, November.</li>
+  <li>Yamamoto, T., Kawaguchi, J., and Morino, S. (2000). “Experimental Studies of Scale Effects on the Compressive Behavior of Short Concrete-Filled Steel Tube Columns.” Composite Construction in Steel and Concrete IV, Proceedings of the United Engineering Foundation Conference on Composite Construction in Steel and Concrete IV, Banff, Alberta, Canada, 879–890. <doi>10.1061/40616(281)76</doi></li> 
+  <li>Yu, Q., Tao, Z., and Wu, Y.-X. (2008). “Experimental behaviour of high performance concrete-filled steel tubular columns.” Thin-Walled Structures, 46(4), 362–370. <doi>10.1016/j.tws.2007.10.001</doi></li>
+  <li>Zhang, S. and Guo, L. (2007). “Behaviour of high strength concrete-filled slender RHS steel tubes.” Advances in Structural Engineering, 10(4), 337–351. <doi>10.1260/136943307783239381</doi></li>  
+</ul>
+
+<script type="text/javascript">
+  var arr = new Array();  
+  arr = document.getElementsByTagName("doi");  
+  for (var i = 0; i < arr.length; i++) {
+      doi = arr.item(i).innerHTML
+      arr.item(i).innerHTML = "(<a href=http://dx.doi.org/" + doi + ">doi:" + doi + "</a>)"
+  }
+</script>
+
+</body>
+</html>
+
+
+
+
+

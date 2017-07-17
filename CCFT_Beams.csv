@@ -1,0 +1,13 @@
+Author,Year,Specimen,D,D_units,t,t_units,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,Mexp,Mexp_units,LoadDeformation,Tags,Notes
+Elchalakani et al.,2001,CBC0-C,109.9,mm,1,mm,400,MPa,533,MPa,23.4,MPa,Cylinder/100mm,7.6,kN-m,yes,,
+Elchalakani et al.,2001,CBC0-B,110.4,mm,1.25,mm,400,MPa,533,MPa,23.4,MPa,Cylinder/100mm,9.1,kN-m,yes,,
+Elchalakani et al.,2001,CBC0-A,110.9,mm,1.5,mm,400,MPa,533,MPa,23.4,MPa,Cylinder/100mm,11,kN-m,yes,,
+Elchalakani et al.,2001,CBC1,101.83,mm,2.53,mm,365,MPa,469,MPa,23.4,MPa,Cylinder/100mm,11.33,kN-m,yes,,
+Elchalakani et al.,2001,CBC2,88.64,mm,2.79,mm,432,MPa,538,MPa,23.4,MPa,Cylinder/100mm,10.86,kN-m,yes,,
+Elchalakani et al.,2001,CBC3,76.32,mm,2.45,mm,415,MPa,534,MPa,23.4,MPa,Cylinder/100mm,6.92,kN-m,yes,,
+Elchalakani et al.,2001,CBC4,89.26,mm,3.35,mm,412,MPa,502,MPa,23.4,MPa,Cylinder/100mm,10.47,kN-m,yes,,
+Elchalakani et al.,2001,CBC5,60.65,mm,2.44,mm,433,MPa,508,MPa,23.4,MPa,Cylinder/100mm,3.78,kN-m,yes,,
+Elchalakani et al.,2001,CBC6,76.19,mm,3.24,mm,456,MPa,548,MPa,23.4,MPa,Cylinder/100mm,9.87,kN-m,yes,,
+Elchalakani et al.,2001,CBC7,60.67,mm,3.01,mm,408,MPa,503,MPa,23.4,MPa,Cylinder/100mm,4.75,kN-m,yes,,
+Elchalakani et al.,2001,CBC8,33.66,mm,1.98,mm,442,MPa,511,MPa,23.4,MPa,Cylinder/100mm,0.9,kN-m,yes,,
+Elchalakani et al.,2001,CBC9,33.78,mm,2.63,mm,460,MPa,568,MPa,23.4,MPa,Cylinder/100mm,1.17,kN-m,yes,,
