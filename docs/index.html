@@ -60,7 +60,7 @@ td {
 <p>This page describes a database of experimental tests on circular and rectangular concrete-filled steel tube and steel-reinforced concrete beams, columns, and beam-columns. The database is primarily intended to be used in the validation of analytical models and design procedures. The database was created and is maintained by Mark Denavit's research group at the University of Tennessee, Knoxville with significant contributions by Morgan Jenkins. The database and associated MATLAB files are available for download at github (<a href="https://github.com/denavit/Composite-Column-Database">browse</a> - <a href="https://github.com/denavit/Composite-Column-Database/archive/master.zip">download zip</a>). Please contact <a href='mai&#108;&#116;o&#58;&#109;%&#54;4%65n%61vi%7&#52;%40utk&#46;edu'>Mark Denavit</a> with any comments, corrections, additions, suggestions, or if you are interested in the original reports.</p>
 
 <h2 id="scope">Scope</h2>
-<p>The data is seperated based on cross section type:</p>
+<p>The data is separated based on cross section type:</p>
 <ul>
   <li><pre>CCFT</pre> - circular concrete-filled steel tubes</li>
   <li><pre>RCFT</pre> - rectangular concrete-filled steel tubes</li>
@@ -70,17 +70,17 @@ td {
 <p>and member type:</p>
 <ul>
   <li><pre>C+PBC</pre> - Columns and proportionality loaded beam-columns</li>
-  <li><pre>Beams</pre> - Members subjected primarily to bending moment with out axial load</li>
+  <li><pre>Beams</pre> - Members subjected primarily to bending moment without axial load</li>
   <li><pre>Other</pre> - Members subjected to axial load and bending moment but not falling in the other categories</li>
 </ul>
 
-Only members which could be accuratly described by the fields in this database and which obtained their member strength in the physical experiment were included. The following were excluded:
+To be included in the database, each specimen must 1) have obtained member strength in a physical experiment; 2) be described in published a work (preferably a peer-reviewed journal publication); and 3) be capable of being accurately described by the fields in this database. The following were excluded:
 <ul>
   <li>Other section types (such as hollow tubes, sandwich tubes, and members with stiffeners)</li>
   <li>Other types of loading (such as primarily shear or torsion)</li>
   <li>Cyclically loaded specimens</li>
   <li>Specimens with sustained or long-term loading</li>
-  <li>Specimens loaded such that the member strength is not obtained (such as push-out tests), connection tests, load not applied to the full composite cross section, strength not achieved due to limitations in the testing equipment)</li>
+  <li>Specimens loaded such that the member strength is not obtained (such as push-out tests, connection tests, load not applied to the full composite cross section, strength not achieved due to limitations in the testing equipment)</li>
   <li>Specimens with stainless steel</li>
   <li>Specimens with expansive or fiber-reinforced concrete</li> 
 </ul>
@@ -206,16 +206,16 @@ Only members which could be accuratly described by the fields in this database a
   <li><pre>dbTies, dbTies_units</pre> - Measured diameter of the lateral reinforcing bars and associated length units</li>
   <li><pre>s, s_units</pre> - Measured center-to-center spacing of the lateral reinforcing bars and associated length units</li>
   <li><pre>Fytr, Fytr_units</pre> - Measured yield stress of the lateral reinforcing steel and associated pressure units</li>
-  <li><pre>cover, cover_units</pre> - Measured concrete cover measued from the center of the longitudinal reinforcement to the outside face of the composite cross section and associated length units</li>
+  <li><pre>cover, cover_units</pre> - Measured concrete cover measured from the center of the longitudinal reinforcement to the outside face of the composite cross section and associated length units</li>
 </ul>
 
 <h3>Member Data</h3>
 <ul>
-  <li><pre>LoadDeformation</pre> - "yes" or "no" depending on whether or not load deformation results are available</li>
+  <li><pre>LoadDeformation</pre> - "yes" or "no" depending on whether or not load deformation results are available in the published report</li>
   <li><pre>BendingAxis</pre> - "strong" or "weak" depending on the axis of bending of the specimen
     <ul>
       <li>Not included for CCFT, which are symmetric</li>
-      <li>Typically listed at "strong" for Square CFT</li>
+      <li>Typically listed as "strong" for Square CFT</li>
     </ul>
   </li>
 </ul>    
@@ -273,7 +273,7 @@ Only members which could be accuratly described by the fields in this database a
     <b>Furlong 1967</b> - <i>52 Total (8 CCFT C+PBC, 5 RCFT C+PBC, 22 CCFT Other, 17 RCFT Other)</i>
     <ul>
       <li>Specimen names were not given in the original report, the listed names were created for this database.</li>
-      <li>The length of the specimens was described as "short" in the original report. For the column specimens, the length was taken from Knowles & Park (1970). FOr the beam-column specimens, the length was taken from Task Group 20, SSRC (1979).</li>
+      <li>The length of the specimens was described as "short" in the original report. For the column specimens, the length was taken from Knowles & Park (1970). For the beam-column specimens, the length was taken from Task Group 20, SSRC (1979).</li>
     </ul>
   </li>
   
@@ -310,8 +310,8 @@ Only members which could be accuratly described by the fields in this database a
   <li>
     <b>Cai & Jiao 1984</b> - <i>45 CCFT C+PBC</i>
     <ul>
-      <li>Only speciments loaded on the entire composite cross section were included (loading type "B").</li>
-      <li>Specimen G-68 was excluded because it was constructed with two seperate steel tubes.</li>
+      <li>Only specimens loaded on the entire composite cross section were included (i.e., loading type "B").</li>
+      <li>Specimen G-68 was excluded because it was constructed with two separate steel tubes.</li>
     </ul>
   </li>
   
