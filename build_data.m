@@ -63,11 +63,12 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
     
     try
         % General Information   
-        data(i).Author   = S.Author{i};
-        data(i).Year     = S.Year{i};
-        data(i).Specimen = S.Specimen{i};
-        data(i).Tags     = S.Tags{i};
-        data(i).Notes    = S.Notes{i};
+        data(i).Author      = S.Author{i};
+        data(i).Year        = S.Year{i};
+        data(i).Reference   = sprintf('%s %s',S.Author{i},S.Year{i});
+        data(i).Specimen    = S.Specimen{i};
+        data(i).Tags        = S.Tags{i};
+        data(i).Notes       = S.Notes{i};
 
 
         % Steel Strength
