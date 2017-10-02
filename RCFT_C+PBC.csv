@@ -413,6 +413,8 @@ Hernandez-Figueirido et al.,2012b,R100.150.4_90.275_20.-10,100,mm,150,mm,4,mm,Co
 Hernandez-Figueirido et al.,2012b,R100.150.4_30.275_20.-10,100,mm,150,mm,4,mm,ColdFormed,268.1,MPa,,,31.7,MPa,Cube,2135,mm,20,mm,-10,mm,weak,563.3,kN,,,yes,,
 Hernandez-Figueirido et al.,2012b,R100.150.5_90.275_20.-10,100,mm,150,mm,5,mm,ColdFormed,304.5,MPa,,,93.4,MPa,Cube,2135,mm,20,mm,-10,mm,weak,1042,kN,,,yes,,
 Hernandez-Figueirido et al.,2012b,R100.150.5_30.275_20.-10,100,mm,150,mm,5,mm,ColdFormed,304.5,MPa,,,30.6,MPa,Cube,2135,mm,20,mm,-10,mm,weak,720.2,kN,,,yes,,
+Yang & Han,2012,Scfst-1,150,mm,150,mm,3,mm,WeldedBox,324.4,MPa,466.5,MPa,52.6,MPa,Cube,675,mm,0,mm,,,strong,1516,kN,,,,,
+Yang & Han,2012,Scfst-2,150,mm,150,mm,3,mm,WeldedBox,324.4,MPa,466.5,MPa,52.6,MPa,Cube,900,mm,0,mm,,,strong,1599,kN,,,,,
 Qu et al.,2013,PYA-1,150,mm,100,mm,4.065,mm,ColdFormed,295,MPa,496,MPa,39,MPa,Cube,700,mm,10,mm,10,mm,strong,750,kN,,,,,
 Qu et al.,2013,PYA-2,150,mm,100,mm,4.065,mm,ColdFormed,295,MPa,496,MPa,66,MPa,Cube,800,mm,15,mm,15,mm,strong,1040,kN,,,,,
 Qu et al.,2013,PYA-3,150,mm,100,mm,4.065,mm,ColdFormed,295,MPa,496,MPa,52,MPa,Cube,900,mm,20,mm,20,mm,strong,810,kN,,,,,
