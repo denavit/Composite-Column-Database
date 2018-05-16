@@ -50,6 +50,9 @@ if strcmp(memberType,'C+PBC')
     if isnumeric(S.eb_units)
         S.eb_units = cell(size(S.eb_units));
     end
+    if isnumeric(S.d_at_Pexp_units)
+        S.d_at_Pexp_units = cell(size(S.d_at_Pexp_units));
+    end    
 end
 if strcmp(memberType,'Other')
     if isnumeric(S.M1exp_units)
@@ -199,6 +202,7 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
                 data(i).isColumn = (data(i).et == 0 && data(i).eb == 0);
 
                 data(i).Pexp = unitConvert('force',S.Pexp(i),S.Pexp_units{i},dbUnitSystem);
+                data(i).d_at_Pexp = unitConvert('length',S.d_at_Pexp(i),S.d_at_Pexp_units{i},dbUnitSystem);
 
             case 'Beams'
                 data(i).Mexp = unitConvert('moment',S.Mexp(i),S.Mexp_units{i},dbUnitSystem);
