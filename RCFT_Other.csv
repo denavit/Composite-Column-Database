@@ -63,3 +63,4 @@ Fujimoto et al. ,2004,ER8-C-8-39,176,mm,176,mm,6.47,mm,ColdFormed,834,MPa,879,MP
 Fujimoto et al. ,2004,ER8-C-8-58,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,77,MPa,Cylinder,648,mm,3275,kN,,,182.4,kN-m,weak,,,
 Fujimoto et al. ,2004,ER8-D-4-40,265,mm,265,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,3246,kN,,,446.2,kN-m,weak,,,
 Fujimoto et al. ,2004,ER8-D-4-60,265,mm,265,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,4864,kN,,,319.7,kN-m,weak,,,
+Fong et al.,2011,CFS tubular column-Fix,60,mm,60,mm,3,mm,ColdFormed,407.98,MPa,480.22,MPa,40.96,MPa,Cylinder/100mm,1000,mm,331.6,kN,0,kN-m,,,strong,yes,,

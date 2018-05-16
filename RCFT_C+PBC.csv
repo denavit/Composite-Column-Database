@@ -379,7 +379,7 @@ Yu et al.,2008,S150-5,100,mm,100,mm,1.9,mm,WeldedBox,404,MPa,,,121.6,MPa,Cube,15
 Yu et al.,2008,S150-6,100,mm,100,mm,1.9,mm,WeldedBox,404,MPa,,,121.6,MPa,Cube,1500,mm,30,mm,,,strong,390,kN,,,yes,,
 Yu et al.,2008,S300-1,100,mm,100,mm,1.9,mm,WeldedBox,404,MPa,,,121.6,MPa,Cube,3000,mm,0,mm,,,strong,474,kN,,,yes,,
 Yu et al.,2008,S300-2,100,mm,100,mm,1.9,mm,WeldedBox,404,MPa,,,121.6,MPa,Cube,3000,mm,0,mm,,,strong,466,kN,,,yes,,
-Fong et al.,2011,CFS tubular column,60,mm,60,mm,3,mm,ColdFormed,407.98,MPa,480.22,MPa,40.96,MPa,Cylinder/100mm,2000,mm,0,mm,,,strong,186.88,kN,,,yes,,
+Fong et al.,2011,CFS tubular column-Pin,60,mm,60,mm,3,mm,ColdFormed,407.98,MPa,480.22,MPa,40.96,MPa,Cylinder/100mm,2000,mm,0,mm,,,strong,186.88,kN,,,yes,,
 Hernandez-Figueirido et al.,2012a,S100.100.4_2_90.275_20.-10a,100,mm,100,mm,4,mm,ColdFormed,371.39,MPa,,,93.03,MPa,Cube,2135,mm,20,mm,-10,mm,strong,758.5,kN,,,,,
 Hernandez-Figueirido et al.,2012a,S100.100.4_2_90.275_50.50,100,mm,100,mm,4,mm,ColdFormed,358.29,MPa,,,91.44,MPa,Cube,2135,mm,50,mm,50,mm,strong,321.12,kN,,,,,
 Hernandez-Figueirido et al.,2012a,S100.100.4_2_90.275_50.50a,100,mm,100,mm,4,mm,ColdFormed,371.39,MPa,,,93.02,MPa,Cube,2135,mm,50,mm,50,mm,strong,323.15,kN,,,,,
