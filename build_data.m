@@ -224,7 +224,10 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
 
             case 'RCFT'
                 section = RCFT(data(i).H,data(i).B,data(i).t,data(i).Fy,data(i).fc,dbUnits);
-
+                if strcmpi(data(i).SteelTubeType,'WeldedBox')
+                    section.ri = 0;
+                end
+                
                 data(i).compactness = section.slendernessInCompression;
                 data(i).rho_s       = section.As/section.Ag;
                 data(i).rho_sr      = 0;
