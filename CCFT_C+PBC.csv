@@ -791,5 +791,8 @@ Ekmekyapar & AL-Eliwi,2016,114.3-2.74-900-107,114.3,mm,2.74,mm,235,MPa,,,107.2,M
 Ekmekyapar & AL-Eliwi,2016,114.3-5.90-900-56,114.3,mm,5.9,mm,355,MPa,,,56.2,MPa,Cylinder,1592.48,kN,,,0,mm,,,900,mm,,,
 Ekmekyapar & AL-Eliwi,2016,114.3-5.90-900-66,114.3,mm,5.9,mm,355,MPa,,,66.75,MPa,Cylinder,1713.34,kN,,,0,mm,,,900,mm,,,
 Ekmekyapar & AL-Eliwi,2016,114.3-5.90-300-107,114.3,mm,5.9,mm,355,MPa,,,107.2,MPa,Cylinder,1907.29,kN,,,0,mm,,,900,mm,,,
+Zhu et al.,2016,Z3,558.1,mm,16.53,mm,546,MPa,,,31.7,MPa,Cube,29050,kN,,,0,mm,,,997.5,mm,yes,,
+Zhu et al.,2016,Z4,557.65,mm,16.52,mm,546,MPa,,,31.7,MPa,Cube,28830,kN,,,0,mm,,,994.9,mm,yes,,
+Zhu et al.,2016,Z5,559.4,mm,16.54,mm,546,MPa,,,31.7,MPa,Cube,29590,kN,,,0,mm,,,994.85,mm,yes,,
 Romero et al.,2017,CFST1,193.7,mm,8,mm,444,MPa,,,40,MPa,Cylinder,1871,kN,,,5,mm,,,3315,mm,,,eccentricity
 Romero et al.,2017,CFST2,193.7,mm,8,mm,444,MPa,,,142,MPa,Cylinder,2703,kN,,,5,mm,,,3315,mm,,,eccentricity
