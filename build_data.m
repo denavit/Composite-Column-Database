@@ -82,7 +82,7 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
         switch lower(S.fc_type{i})
             case {'cube','cube/100mm','cube/150mm','cube/200mm'}
                 data(i).fc = 0.71*unitConvert('stress',S.fc(i),S.fc_units{i},dbUnitSystem);
-            case {'','cylinder','cylinder/100mm','cylinder/150mm'}
+            case {'','cylinder','cylinder/100mm','cylinder/150mm','cylinder/4in'}
                 data(i).fc = unitConvert('stress',S.fc(i),S.fc_units{i},dbUnitSystem);
             otherwise
                 error('Unknown fc type: %s',S.fc_type{i});
@@ -369,7 +369,17 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
                 end
                 
             case 'Beams'
+                
+                % AISC 2016
+                if compute_AISC2016
+                    section.option_EI = 'AISC2016';
 
+                    Mno = section.Mno(data(i).axis);
+
+                    data(i).AISC2016_Mno                = Mno;
+                    data(i).AISC2016_test_to_predicted  = data(i).Mexp/Mno;
+                end
+                
             case 'Other'
 
             otherwise
