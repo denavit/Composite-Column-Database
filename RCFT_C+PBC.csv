@@ -227,10 +227,6 @@ Han & Yao,2003b,LP-4,120,mm,120,mm,2.65,mm,WeldedBox,340,MPa,439.6,MPa,36,MPa,Cu
 Han & Yao,2003b,L-5,120,mm,120,mm,2.65,mm,WeldedBox,340,MPa,439.6,MPa,30,MPa,Cube/150mm,1400,mm,31,mm,,,weak,412,kN,,,,,
 Han & Yao,2003b,LP-6,120,mm,120,mm,2.65,mm,WeldedBox,340,MPa,439.6,MPa,30,MPa,Cube/150mm,1400,mm,31,mm,,,weak,397,kN,,,,PreloadedSteel,
 Han & Yao,2003b,LP-7,120,mm,120,mm,2.65,mm,WeldedBox,340,MPa,439.6,MPa,30,MPa,Cube/150mm,1400,mm,31,mm,,,weak,390,kN,,,,PreloadedSteel,
-Mursi et al.,2003,SL-C110,120,mm,120,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,3020,mm,8,mm,,,strong,1481,kN,,,yes,,Tubes had stiffener plates at the member ends
-Mursi et al.,2003,SL-C160,170,mm,170,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,3020,mm,15,mm,,,strong,2126,kN,,,yes,,Tubes had stiffener plates at the member ends
-Mursi et al.,2003,SL-C210,220,mm,220,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,3020,mm,18,mm,,,strong,2939,kN,,,yes,,Tubes had stiffener plates at the member ends
-Mursi et al.,2003,SL-C260,270,mm,270,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,3020,mm,23,mm,,,strong,3062,kN,,,yes,,Tubes had stiffener plates at the member ends
 Fujimoto et al. ,2004,ER4-A-4-19,149,mm,149,mm,4.38,mm,ColdFormed,262,MPa,411,MPa,40.5,MPa,Cylinder,648,mm,200,mm,,,strong,267,kN,,,yes,,
 Fujimoto et al. ,2004,ER4-A-4-57,148,mm,148,mm,4.38,mm,ColdFormed,262,MPa,411,MPa,40.5,MPa,Cylinder,648,mm,45,mm,,,strong,823,kN,,,yes,,
 Fujimoto et al. ,2004,ER4-C-2-25,215,mm,215,mm,4.38,mm,ColdFormed,262,MPa,411,MPa,25.4,MPa,Cylinder,648,mm,200,mm,,,strong,503,kN,,,yes,,
@@ -309,6 +305,10 @@ Lam & Williams,2004,S15,99.8,mm,99.8,mm,4.8,mm,,289,MPa,,,31.9,MPa,Cube,302,mm,0
 Lam & Williams,2004,S16,99.7,mm,99.7,mm,4.7,mm,,289,MPa,,,58.2,MPa,Cube,301,mm,0,mm,,,weak,1000,kN,,,yes,,
 Lam & Williams,2004,S17,99.7,mm,99.7,mm,4.73,mm,,289,MPa,,,98.9,MPa,Cube,302,mm,0,mm,,,weak,1050,kN,,,yes,Greased,
 Lam & Williams,2004,S18,99.9,mm,99.9,mm,4.1,mm,,333,MPa,,,98.9,MPa,Cube,301,mm,0,mm,,,weak,1130,kN,,,yes,,
+Mursi & Uy,2004,SH-C110,120,mm,120,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,430,mm,0,mm,,,strong,1835,kN,,,,,
+Mursi & Uy,2004,SH-C160,170,mm,170,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,580,mm,0,mm,,,strong,2831,kN,,,,,
+Mursi & Uy,2004,SH-C210,220,mm,220,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,730,mm,0,mm,,,strong,3609,kN,,,,,
+Mursi & Uy,2004,SH-C260,270,mm,270,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,880,mm,0,mm,,,strong,3950,kN,,,,,
 Sakino et al. ,2004,CR4-A-2,148,mm,148,mm,4.38,mm,ColdFormed,262,MPa,300,MPa,25.4,MPa,Cylinder,3,ratio_H,0,mm,,,weak,1153,kN,,,yes,,
 Sakino et al. ,2004,CR4-A-4-1,148,mm,148,mm,4.38,mm,ColdFormed,262,MPa,300,MPa,40.5,MPa,Cylinder,3,ratio_H,0,mm,,,weak,1414,kN,,,yes,,
 Sakino et al. ,2004,CR4-A-4-2,148,mm,148,mm,4.38,mm,ColdFormed,262,MPa,300,MPa,40.5,MPa,Cylinder,3,ratio_H,0,mm,,,weak,1402,kN,,,yes,,

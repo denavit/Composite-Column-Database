@@ -63,4 +63,8 @@ Fujimoto et al. ,2004,ER8-C-8-39,176,mm,176,mm,6.47,mm,ColdFormed,834,MPa,879,MP
 Fujimoto et al. ,2004,ER8-C-8-58,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,77,MPa,Cylinder,648,mm,3275,kN,,,182.4,kN-m,weak,,,
 Fujimoto et al. ,2004,ER8-D-4-40,265,mm,265,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,3246,kN,,,446.2,kN-m,weak,,,
 Fujimoto et al. ,2004,ER8-D-4-60,265,mm,265,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,4864,kN,,,319.7,kN-m,weak,,,
+Mursi & Uy,2004,SL-C110,120,mm,120,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2174,mm,1481,kN,,,,,strong,,,Eccentrically loaded column with accidental end restraint (e = 10 mm)
+Mursi & Uy,2004,SL-C160,170,mm,170,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2416,mm,2126,kN,,,,,strong,,,Eccentrically loaded column with accidental end restraint (e = 15 mm)
+Mursi & Uy,2004,SL-C210,220,mm,220,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2416,mm,2939,kN,,,,,strong,,,Eccentrically loaded column with accidental end restraint (e = 20 mm)
+Mursi & Uy,2004,SL-C260,270,mm,270,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2817,mm,3062,kN,,,,,strong,,,Eccentrically loaded column with accidental end restraint (e = 25 mm)
 Fong et al.,2011,CFS tubular column-Fix,60,mm,60,mm,3,mm,ColdFormed,407.98,MPa,480.22,MPa,40.96,MPa,Cylinder/100mm,1000,mm,331.6,kN,0,kN-m,,,strong,yes,,
