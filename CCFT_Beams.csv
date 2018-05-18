@@ -1,4 +1,8 @@
 Author,Year,Specimen,D,D_units,t,t_units,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,Mexp,Mexp_units,LoadDeformation,Tags,Notes
+Prion & Boehme,1994,BP1,152,mm,1.7,mm,262,MPa,,,73,MPa,Cylinder,19.9,kN-m,yes,,
+Prion & Boehme,1994,BP2,152,mm,1.7,mm,262,MPa,,,73,MPa,Cylinder,17.9,kN-m,yes,,
+Prion & Boehme,1994,BP3,152,mm,1.7,mm,262,MPa,,,73,MPa,Cylinder,20.8,kN-m,yes,,
+Prion & Boehme,1994,BP4,152,mm,1.7,mm,262,MPa,,,73,MPa,Cylinder,19,kN-m,yes,,
 Elchalakani et al.,2001,CBC0-C,109.9,mm,1,mm,400,MPa,533,MPa,23.4,MPa,Cylinder/100mm,7.6,kN-m,yes,,
 Elchalakani et al.,2001,CBC0-B,110.4,mm,1.25,mm,400,MPa,533,MPa,23.4,MPa,Cylinder/100mm,9.1,kN-m,yes,,
 Elchalakani et al.,2001,CBC0-A,110.9,mm,1.5,mm,400,MPa,533,MPa,23.4,MPa,Cylinder/100mm,11,kN-m,yes,,

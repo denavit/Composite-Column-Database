@@ -21,6 +21,15 @@ Furlong,1967,BeamColumn-36,5,in,0.095,in,42,ksi,,,5.1,ksi,,58.6,kips,,,155.5,k-i
 Furlong,1967,BeamColumn-37,5,in,0.095,in,42,ksi,,,5.1,ksi,,39.3,kips,,,145.6,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
 Furlong,1967,BeamColumn-38,5,in,0.095,in,42,ksi,,,5.1,ksi,,20,kips,,,140.8,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
 Furlong,1967,BeamColumn-39,5,in,0.095,in,42,ksi,,,5.1,ksi,,9.8,kips,,,130,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
+Prion & Boehme,1994,BP11,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,470,kN,,,29.7,kN-m,2120,mm,yes,,
+Prion & Boehme,1994,BP12,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,570,kN,,,32.1,kN-m,2120,mm,yes,,
+Prion & Boehme,1994,BP13,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,670,kN,,,28.5,kN-m,2120,mm,yes,,
+Prion & Boehme,1994,BP14,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,820,kN,,,29.2,kN-m,2120,mm,yes,,
+Prion & Boehme,1994,BP15,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,970,kN,,,30.5,kN-m,2120,mm,yes,,
+Prion & Boehme,1994,BP17,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,270,kN,,,30.1,kN-m,2120,mm,yes,,
+Prion & Boehme,1994,BP20,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,1273,kN,,,21.4,kN-m,1071,mm,no,,Large spherical bearing
+Prion & Boehme,1994,BP21,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,1451,kN,,,13.8,kN-m,1071,mm,no,,Large spherical bearing
+Prion & Boehme,1994,BP22,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,1309,kN,,,15.9,kN-m,1071,mm,no,,Large spherical bearing
 Fujimoto et al.,2004,EC4-A-4-035,150,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,359,kN,,,32,kN-m,900,mm,,,
 Fujimoto et al.,2004,EC4-A-4-06,150,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,616,kN,,,36.5,kN-m,900,mm,,,
 Fujimoto et al.,2004,EC4-C-2-035,159,mm,2.96,mm,283,MPa,408,MPa,25.4,MPa,Cylinder,840,kN,,,128.3,kN-m,900,mm,,,
