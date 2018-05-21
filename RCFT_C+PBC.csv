@@ -543,6 +543,8 @@ Dundu ,2016,S3-2,120,mm,120,mm,3,mm,ColdFormed,400.77,MPa,512.76,MPa,28.8,MPa,Cy
 Dundu ,2016,S3-3,120,mm,120,mm,4.5,mm,ColdFormed,436.54,MPa,530.41,MPa,28.8,MPa,Cylinder,2700,mm,0,mm,0,mm,strong,830,kN,,,,,
 Dundu ,2016,S3-4,150,mm,150,mm,3,mm,ColdFormed,429.14,MPa,403.86,MPa,28.8,MPa,Cylinder,2700,mm,0,mm,0,mm,strong,1087.1,kN,,,,,
 Dundu ,2016,S3-5,150,mm,150,mm,4.5,mm,ColdFormed,334.8,MPa,474.76,MPa,28.8,MPa,Cylinder,2700,mm,0,mm,0,mm,strong,1285.1,kN,,,,,
+Ding et al.,2017,S1,300,mm,300,mm,3.75,mm,WeldedBox,311,MPa,460,MPa,39.3,MPa,Cube/150mm,900,mm,0,mm,,,strong,4370,kN,,,yes,,
+Ding et al.,2017,S2,300,mm,300,mm,3.75,mm,WeldedBox,311,MPa,460,MPa,57.4,MPa,Cube/150mm,900,mm,0,mm,,,strong,5570,kN,,,yes,,
 Du et al.,2017,SC40-150-0.2,150,mm,150,mm,8.28,mm,WeldedBox,488.4,MPa,553,MPa,43.2,MPa,Cube,1180,mm,13,mm,13,mm,strong,2470,kN,,,,,
 Du et al.,2017,SC40-180-0.2,180,mm,120,mm,8.28,mm,WeldedBox,488.4,MPa,553,MPa,43.2,MPa,Cube,1180,mm,18.5,mm,18.5,mm,strong,2660,kN,,,,,
 Du et al.,2017,SC40-200-0.2,200,mm,100,mm,8.28,mm,WeldedBox,488.4,MPa,553,MPa,43.2,MPa,Cube,1180,mm,20,mm,20,mm,strong,2595,kN,,,,,
