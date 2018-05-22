@@ -122,6 +122,8 @@ Matsui & Tsuda,1996,C30-0,15,cm,15,cm,0.45,cm,ColdFormed,4.47,tscm,5,tscm,325,kg
 Matsui & Tsuda,1996,C30-1,15,cm,15,cm,0.45,cm,ColdFormed,4.47,tscm,5,tscm,325,kgscm,,4500,mm,2.5,cm,,,strong,60,tonne,,,yes,,
 Matsui & Tsuda,1996,C30-3,15,cm,15,cm,0.45,cm,ColdFormed,4.47,tscm,5,tscm,325,kgscm,,4500,mm,7.5,cm,,,strong,38,tonne,,,yes,,
 Matsui & Tsuda,1996,C30-5,15,cm,15,cm,0.45,cm,ColdFormed,4.47,tscm,5,tscm,325,kgscm,,4500,mm,12.5,cm,,,strong,28.2,tonne,,,yes,,
+Wang & Moore,1997,RHS1,120,mm,80,mm,6.3,mm,ColdFormed,370,MPa,,,60,MPa,Cube/100mm,4000,mm,55,mm,-55,mm,weak,368,kN,,,yes,,
+Wang & Moore,1997,RHS2,120,mm,80,mm,6.3,mm,ColdFormed,370,MPa,,,60,MPa,Cube/100mm,4000,mm,55,mm,0,mm,weak,246,kN,,,yes,,
 Schneider,1998,S1,127.3,mm,127.3,mm,3.15,mm,ColdFormed,356,MPa,,,30454,kPa,Cylinder,635,mm,0,mm,,,weak,917,kN,,,,,
 Schneider,1998,S2,126.9,mm,126.9,mm,4.34,mm,ColdFormed,357,MPa,,,26044,kPa,Cylinder,635,mm,0,mm,,,weak,1095,kN,,,,,
 Schneider,1998,S3,127,mm,126.9,mm,4.55,mm,ColdFormed,322,MPa,,,23805,kPa,Cylinder,635,mm,0,mm,,,weak,1113,kN,,,,,
