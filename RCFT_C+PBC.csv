@@ -182,6 +182,14 @@ Han,2002,rc11-1,130,mm,85,mm,2.86,mm,WeldedBox,228,MPa,,,59.3,MPa,Cube/150mm,390
 Han,2002,rc11-2,130,mm,85,mm,2.86,mm,WeldedBox,228,MPa,,,59.3,MPa,Cube/150mm,390,mm,0,mm,,,weak,820,kN,,,yes,,
 Han,2002,rc12-1,140,mm,80,mm,2.86,mm,WeldedBox,228,MPa,,,59.3,MPa,Cube/150mm,420,mm,0,mm,,,weak,880,kN,,,yes,,
 Han,2002,rc12-2,140,mm,80,mm,2.86,mm,WeldedBox,228,MPa,,,59.3,MPa,Cube/150mm,420,mm,0,mm,,,weak,740,kN,,,yes,,
+Vrcelj & Uy,2002,HSC1,65,mm,65,mm,3,mm,ColdFormed,455,MPa,493,MPa,79,MPa,Cylinder/150mm,3,ratio_H,0,mm,,,strong,502,kN,,,yes,,Length only reported as 'short' - L/H = 3 is assumed
+Vrcelj & Uy,2002,HSC2,75,mm,75,mm,3,mm,ColdFormed,468,MPa,578,MPa,79,MPa,Cylinder/150mm,3,ratio_H,0,mm,,,strong,684,kN,,,yes,,Length only reported as 'short' - L/H = 3 is assumed
+Vrcelj & Uy,2002,MSC1,75,mm,75,mm,3,mm,ColdFormed,468,MPa,578,MPa,52,MPa,Cylinder/150mm,3,ratio_H,0,mm,,,strong,568,kN,,,yes,,Length only reported as 'short' - L/H = 3 is assumed
+Vrcelj & Uy,2002,MSC2,65,mm,65,mm,3,mm,ColdFormed,455,MPa,493,MPa,52,MPa,Cylinder/150mm,3,ratio_H,0,mm,,,strong,434,kN,,,yes,,Length only reported as 'short' - L/H = 3 is assumed
+Vrcelj & Uy,2002,CCH1,75,mm,75,mm,3,mm,ColdFormed,468,MPa,578,MPa,79,MPa,Cylinder/150mm,1770,mm,0,mm,,,strong,414,kN,5.25,mm,yes,,
+Vrcelj & Uy,2002,CCH2,65,mm,65,mm,3,mm,ColdFormed,455,MPa,493,MPa,79,MPa,Cylinder/150mm,1770,mm,0,mm,,,strong,296,kN,10.51,mm,yes,,
+Vrcelj & Uy,2002,CCM1,75,mm,75,mm,3,mm,ColdFormed,468,MPa,578,MPa,52,MPa,Cylinder/150mm,1770,mm,0,mm,,,strong,343,kN,6,mm,yes,,
+Vrcelj & Uy,2002,CCM2,65,mm,65,mm,3,mm,ColdFormed,455,MPa,493,MPa,52,MPa,Cylinder/150mm,1770,mm,0,mm,,,strong,269,kN,10.82,mm,yes,,
 Han & Yao,2003a,M-1-1,130,mm,130,mm,2.65,mm,WeldedBox,340.1,MPa,,,22,MPa,Cube,780,mm,0,mm,,,weak,760,kN,,,,,
 Han & Yao,2003a,M-1-2,130,mm,130,mm,2.65,mm,WeldedBox,340.1,MPa,,,22,MPa,Cube,780,mm,0,mm,,,weak,770,kN,,,,,
 Han & Yao,2003a,H-1-1,130,mm,130,mm,2.65,mm,WeldedBox,340.1,MPa,,,22,MPa,Cube,780,mm,0,mm,,,weak,690,kN,,,,,
