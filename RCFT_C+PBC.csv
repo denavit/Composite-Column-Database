@@ -145,6 +145,19 @@ Yamamoto et al.,2000,S20D-4A,200.1,mm,200.1,mm,4.35,mm,ColdFormed,322,MPa,,,57.9
 Yamamoto et al.,2000,S30D-4A,300.7,mm,300.7,mm,6.1,mm,ColdFormed,395,MPa,,,52.2,MPa,Cylinder,3,ratio_H,0,mm,,,weak,6496,kN,,,,,
 Yamamoto et al.,2000,S10D-6A,100.1,mm,100.1,mm,2.18,mm,ColdFormed,300,MPa,,,61,MPa,Cylinder,3,ratio_H,0,mm,,,weak,911,kN,,,,,
 Yamamoto et al.,2000,S20D-6A,200.3,mm,200.3,mm,4.35,mm,ColdFormed,322,MPa,,,63.7,MPa,Cylinder,3,ratio_H,0,mm,,,weak,3417,kN,,,,,
+Uy,2001,HSS1,110,mm,110,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,28,MPa,Cylinder,3,ratio_H,0,mm,,,strong,1836,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS2,110,mm,110,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,28,MPa,Cylinder,3,ratio_H,0,mm,,,strong,1832,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS3,110,mm,110,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,30,MPa,Cylinder,3,ratio_H,15,mm,,,strong,1555,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS4,110,mm,110,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,30,MPa,Cylinder,3,ratio_H,30,mm,,,strong,1281,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS7,160,mm,160,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,30,MPa,Cylinder,3,ratio_H,40,mm,,,strong,1308,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS8,160,mm,160,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,30,MPa,Cylinder,3,ratio_H,0,mm,,,strong,2868,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS9,160,mm,160,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,30,MPa,Cylinder,3,ratio_H,0,mm,,,strong,2922,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS10,160,mm,160,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,30,MPa,Cylinder,3,ratio_H,25,mm,,,strong,2024,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS11,160,mm,160,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,30,MPa,Cylinder,3,ratio_H,50,mm,,,strong,1979,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS14,210,mm,210,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,32,MPa,Cylinder,3,ratio_H,0,mm,,,strong,3710,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS15,210,mm,210,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,32,MPa,Cylinder,3,ratio_H,0,mm,,,strong,3483,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS16,210,mm,210,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,32,MPa,Cylinder,3,ratio_H,25,mm,,,strong,3106,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
+Uy,2001,HSS17,210,mm,210,mm,5,mm,WeldedBox,784.2,MPa,816.6,MPa,32,MPa,Cylinder,3,ratio_H,50,mm,,,strong,2617,kN,,,,,Length only reported as 'short' - L/H = 3 is assumed
 Han,2002,rc1-1,100,mm,100,mm,2.86,mm,WeldedBox,228,MPa,,,59.3,MPa,Cube/150mm,300,mm,0,mm,,,weak,760,kN,,,yes,,
 Han,2002,rc1-2,100,mm,100,mm,2.86,mm,WeldedBox,228,MPa,,,59.3,MPa,Cube/150mm,300,mm,0,mm,,,weak,800,kN,,,yes,,
 Han,2002,rc2-1,120,mm,120,mm,2.86,mm,WeldedBox,228,MPa,,,59.3,MPa,Cube/150mm,360,mm,0,mm,,,weak,992,kN,,,yes,,
