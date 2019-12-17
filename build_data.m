@@ -406,6 +406,28 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
                     data(i).AISC2016_test_to_predicted  = data(i).Mexp/Mno;
                 end
                 
+                % Plastic Stress Distribution
+                if compute_PSD
+                    psd = section.plasticStressDistributionObject();
+                    num_points = 50;
+                    switch lower(data(i).axis)
+                        case 'strong'
+                            [P,M,~] = psd.interactionSweep(0,num_points);
+                        case 'weak'
+                            [P,~,M] = psd.interactionSweep(pi/2,num_points);
+                        otherwise
+                            error('Bad axis: %s',data(i).axis);
+                    end
+                    
+                    id = interactionDiagram2d(M,-P);
+                    Mmax = 1.1*max(M);
+                    [Mpsd,~] = id.findIntersection(linspace(0,Mmax,100),linspace(0,0,100));
+                    
+                    data(i).PSD_P = P;
+                    data(i).PSD_M = M;
+                    data(i).PSD_test_to_predicted = data(i).Mexp/Mpsd;
+                end                 
+                
             case 'Other'
 
             otherwise
