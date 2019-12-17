@@ -12,6 +12,12 @@ unique_refs = unique(refs);
 switch ttp_type
     case 'AISC2016'
         ttp = [data(:).AISC2016_test_to_predicted];
+    case 'PSD'
+        ttp = [data(:).PSD_test_to_predicted];
+    case 'ACDB'
+        ttp = [data(:).ACDB_test_to_predicted];
+    case 'Analysis_PfD'
+        ttp = [data(:).Analysis_PfD_test_to_predicted];
     otherwise
         error('Unknown test to predicted type: %s',ttp_type)
 end
