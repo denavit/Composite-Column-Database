@@ -19,10 +19,12 @@ end
 dbUnits = 'US';
 dbUnitSystem = unitSystem(dbUnits);
 
-% Which strengths to compute
+% Options
 compute_AISC2016     = false;
 compute_PSD          = false;
+compute_ACDB         = false;
 compute_Analysis_PfD = false;
+save_section_obj     = true;
 
 %% Read and Adjust Data
 filename = sprintf('%s_%s.csv',sectionType,memberType);
@@ -249,6 +251,9 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
             otherwise
                 error('Unknown section type: %s',sectionType)
         end
+        if save_section_obj
+            data(i).section = section;
+        end
 
         % Member Data
         switch memberType
@@ -314,6 +319,27 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
                     data(i).PSD_P = P;
                     data(i).PSD_M = M;
                     data(i).PSD_test_to_predicted = data(i).Pexp/Ppsd;
+                end                
+                
+                % Trial ACDB Interaction
+                if compute_ACDB
+                    section.option_EI = 'AISC2016';
+                    Pno       = section.Pnco;
+                    EIelastic = 0.64*section.EIeff(data(i).axis);
+                    tauType   = 'Composite';
+                    [idP,idM] = section.beamColumnInteraction2d(data(i).axis,'Trial-ACDB','CompPos');
+                    BA_Elastic = BenchmarkAnalysis2d_Elastic_Sidesway_Inhibited(...
+                        EIelastic,data(i).L,beta,0);
+                    [P,M2] = BA_Elastic.determinePeakLoadWithEccentricity(idM,idP,e,Pno,tauType);
+
+                    data(i).ACDB_idP                = idP;
+                    data(i).ACDB_idM                = idM;
+                    data(i).ACDB_EIelastic          = EIelastic;
+                    data(i).ACDB_Pno                = Pno;
+                    data(i).ACDB_P                  = -P;
+                    data(i).ACDB_M1                 = -P*e;
+                    data(i).ACDB_M2                 = M2;
+                    data(i).ACDB_test_to_predicted  = -data(i).Pexp/P;
                 end                
                 
                 % Nonlinear Analysis - PfD
