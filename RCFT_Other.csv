@@ -1,70 +1,70 @@
-Author ,Year,Specimen,H,H_units,B,B_units,t,t_units,SteelTubeType,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,KL,KL_units,Pexp,Pexp_units,M1exp,M1exp_units,M2exp,M2exp_units,BendingAxis,LoadDeformation,Tags,Notes
-Furlong,1967,BeamColumn-1,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,250,kips,,,310,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-2,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,150,kips,,,365,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-3,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,150,kips,,,430,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-4,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,100,kips,,,450,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-10,4,in,4,in,0.084,in,,48,ksi,,,3.4,ksi,,42,in,84,kips,,,44.3,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-11,4,in,4,in,0.084,in,,48,ksi,,,3.4,ksi,,42,in,84,kips,,,44.6,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-12,4,in,4,in,0.084,in,,48,ksi,,,3.4,ksi,,42,in,54.4,kips,,,91.7,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-13,4,in,4,in,0.084,in,,48,ksi,,,3.4,ksi,,42,in,20.2,kips,,,104.9,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-14,4,in,4,in,0.084,in,,48,ksi,,,3.4,ksi,,42,in,20.1,kips,,,114.1,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-20,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,98.4,kips,,,119,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-21,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,68.8,kips,,,162,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-22,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,67.8,kips,,,162,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-23,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,58.6,kips,,,190,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-24,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,29,kips,,,209,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-25,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,28.8,kips,,,193,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-26,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,9,kips,,,165,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-27,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,0,kips,,,204,k-in,strong,no,,"Length from Task Group 20, SSRC (1979)"
-Tomii & Sakino,1979,I-0,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,245,kgscm,Cylinder,300,mm,0,tonne,,,0.73,tf-m,strong,yes,,
-Tomii & Sakino,1979,I-1,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,390,kgscm,Cylinder,300,mm,7.8,tonne,,,1.04,tf-m,strong,yes,,
-Tomii & Sakino,1979,I-2,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,390,kgscm,Cylinder,300,mm,16.1,tonne,,,1.14,tf-m,strong,yes,,
-Tomii & Sakino,1979,I-3,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,390,kgscm,Cylinder,300,mm,19.5,tonne,,,1.14,tf-m,strong,yes,,
-Tomii & Sakino,1979,I-5,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,390,kgscm,Cylinder,300,mm,27.3,tonne,,,1.17,tf-m,strong,yes,,
-Tomii & Sakino,1979,I-6,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,374,kgscm,Cylinder,300,mm,33.7,tonne,,,0.91,tf-m,strong,yes,,
-Tomii & Sakino,1979,I-6',10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,374,kgscm,Cylinder,300,mm,33.7,tonne,,,0.84,tf-m,strong,yes,,
-Tomii & Sakino,1979,II-0,10,cm,10,cm,2.27,mm,ColdFormed,3.11,tscm,3.98,tscm,220,kgscm,Cylinder,300,mm,0,tonne,,,1.12,tf-m,strong,yes,,
-Tomii & Sakino,1979,II-1,10,cm,10,cm,2.27,mm,ColdFormed,3.11,tscm,3.98,tscm,220,kgscm,Cylinder,300,mm,4.7,tonne,,,1.26,tf-m,strong,yes,,
-Tomii & Sakino,1979,II-2,10,cm,10,cm,2.2,mm,ColdFormed,3.46,tscm,4.19,tscm,220,kgscm,Cylinder,300,mm,9.4,tonne,,,1.32,tf-m,strong,yes,,
-Tomii & Sakino,1979,II-3,10,cm,10,cm,2.2,mm,ColdFormed,3.46,tscm,4.19,tscm,220,kgscm,Cylinder,300,mm,14.1,tonne,,,1.29,tf-m,strong,yes,,
-Tomii & Sakino,1979,II-4,10,cm,10,cm,2.22,mm,ColdFormed,2.95,tscm,3.86,tscm,220,kgscm,Cylinder,300,mm,18.8,tonne,,,1.2,tf-m,strong,yes,,
-Tomii & Sakino,1979,II-5,10,cm,10,cm,2.22,mm,ColdFormed,2.95,tscm,3.86,tscm,220,kgscm,Cylinder,300,mm,23.6,tonne,,,1.09,tf-m,strong,yes,,
-Tomii & Sakino,1979,II-6,10,cm,10,cm,2.22,mm,ColdFormed,2.95,tscm,3.86,tscm,220,kgscm,Cylinder,300,mm,28.3,tonne,,,0.93,tf-m,strong,yes,,
-Tomii & Sakino,1979,III-0,10,cm,10,cm,2.98,mm,ColdFormed,2.95,tscm,4.09,tscm,210,kgscm,Cylinder,300,mm,0,tonne,,,1.43,tf-m,strong,yes,,
-Tomii & Sakino,1979,III-1,10,cm,10,cm,2.98,mm,ColdFormed,2.95,tscm,4.09,tscm,210,kgscm,Cylinder,300,mm,5.2,tonne,,,1.49,tf-m,strong,yes,,
-Tomii & Sakino,1979,III-2,10,cm,10,cm,2.98,mm,ColdFormed,2.95,tscm,4.09,tscm,210,kgscm,Cylinder,300,mm,10.4,tonne,,,1.55,tf-m,strong,yes,,
-Tomii & Sakino,1979,III-3,10,cm,10,cm,2.99,mm,ColdFormed,2.95,tscm,4.12,tscm,210,kgscm,Cylinder,300,mm,15.6,tonne,,,1.48,tf-m,strong,yes,,
-Tomii & Sakino,1979,III-4,10,cm,10,cm,2.99,mm,ColdFormed,2.95,tscm,4.12,tscm,210,kgscm,Cylinder,300,mm,20.8,tonne,,,1.36,tf-m,strong,yes,,
-Tomii & Sakino,1979,III-5,10,cm,10,cm,2.99,mm,ColdFormed,2.95,tscm,4.12,tscm,210,kgscm,Cylinder,300,mm,26,tonne,,,1.27,tf-m,strong,yes,,
-Tomii & Sakino,1979,III-6,10,cm,10,cm,2.99,mm,ColdFormed,2.94,tscm,4.12,tscm,210,kgscm,Cylinder,300,mm,31.2,tonne,,,1.1,tf-m,strong,yes,,
-Tomii & Sakino,1979,IV-0,10,cm,10,cm,4.25,mm,ColdFormed,2.9,tscm,4,tscm,190,kgscm,Cylinder,300,mm,0,tonne,,,1.87,tf-m,strong,yes,,
-Tomii & Sakino,1979,IV-1,10,cm,10,cm,4.25,mm,ColdFormed,2.9,tscm,4,tscm,190,kgscm,Cylinder,300,mm,6.3,tonne,,,1.94,tf-m,strong,yes,,
-Tomii & Sakino,1979,IV-2,10,cm,10,cm,4.25,mm,ColdFormed,2.9,tscm,4,tscm,190,kgscm,Cylinder,300,mm,12.6,tonne,,,1.92,tf-m,strong,yes,,
-Tomii & Sakino,1979,IV-3,10,cm,10,cm,4.25,mm,ColdFormed,2.91,tscm,4.01,tscm,190,kgscm,Cylinder,300,mm,18.9,tonne,,,1.86,tf-m,strong,yes,,
-Tomii & Sakino,1979,IV-4,10,cm,10,cm,4.25,mm,ColdFormed,2.91,tscm,4.01,tscm,202,kgscm,Cylinder,300,mm,25.6,tonne,,,1.77,tf-m,strong,yes,,
-Tomii & Sakino,1979,IV-5,10,cm,10,cm,4.25,mm,ColdFormed,2.91,tscm,4.01,tscm,202,kgscm,Cylinder,300,mm,32,tonne,,,1.61,tf-m,strong,yes,,
-Tomii & Sakino,1979,IV-6,10,cm,10,cm,4.26,mm,ColdFormed,2.94,tscm,4.05,tscm,202,kgscm,Cylinder,300,mm,38.3,tonne,,,1.43,tf-m,strong,yes,,
-Varma,2000,BC-32-46-20,305,mm,305,mm,8.6,mm,ColdFormed,269,MPa,429,MPa,110,MPa,Cylinder,1.52,m,2520,kN,,,606,kN-m,strong,yes,,
-Varma,2000,BC-32-46-40,305,mm,305,mm,8.6,mm,ColdFormed,269,MPa,429,MPa,110,MPa,Cylinder,1.52,m,5035,kN,,,543,kN-m,strong,yes,,
-Varma,2000,BC-32-80-20,305,mm,305,mm,8.9,mm,ColdFormed,600,MPa,674,MPa,110,MPa,Cylinder,1.52,m,3050,kN,,,933,kN-m,strong,yes,,
-Varma,2000,BC-32-80-40,305,mm,305,mm,8.9,mm,ColdFormed,600,MPa,674,MPa,110,MPa,Cylinder,1.52,m,6100,kN,,,806,kN-m,strong,yes,,
-Varma,2000,BC-48-46-20,305,mm,305,mm,5.8,mm,ColdFormed,471,MPa,534,MPa,110,MPa,Cylinder,1.52,m,2360,kN,,,597,kN-m,strong,yes,,
-Varma,2000,BC-48-46-22,305,mm,305,mm,5.8,mm,ColdFormed,471,MPa,534,MPa,110,MPa,Cylinder,1.52,m,2520,kN,,,629,kN-m,strong,yes,,
-Varma,2000,BC-48-80-20,305,mm,305,mm,6.1,mm,ColdFormed,660,MPa,737,MPa,110,MPa,Cylinder,1.52,m,2740,kN,,,700,kN-m,strong,yes,,
-Varma,2000,BC-48-80-40,305,mm,305,mm,6.1,mm,ColdFormed,660,MPa,737,MPa,110,MPa,Cylinder,1.52,m,5480,kN,,,574,kN-m,strong,yes,,
-Fujimoto et al. ,2004,ER6-C-2-25,211,mm,211,mm,6.36,mm,ColdFormed,618,MPa,673,MPa,25.4,MPa,Cylinder,648,mm,1040,kN,,,253,kN-m,weak,,,
-Fujimoto et al. ,2004,ER8-A-4-08,121,mm,121,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,226,kN,,,103,kN-m,weak,,WeldFailure,Weld failure prior to maximum strength
-Fujimoto et al. ,2004,ER8-C-2-38,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,25.4,MPa,Cylinder,648,mm,1638,kN,,,203,kN-m,weak,,,Weld failure after maximum strength
-Fujimoto et al. ,2004,ER8-C-2-57,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,25.4,MPa,Cylinder,648,mm,2461,kN,,,157.9,kN-m,weak,,,
-Fujimoto et al. ,2004,ER8-C-4-24,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,1128,kN,,,211.8,kN-m,weak,,WeldFailure,Weld failure prior to maximum strength
-Fujimoto et al. ,2004,ER8-C-4-38,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,1804,kN,,,212.8,kN-m,weak,,,Weld failure after maximum strength
-Fujimoto et al. ,2004,ER8-C-4-57,176,mm,176,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,2697,kN,,,153,kN-m,weak,,,
-Fujimoto et al. ,2004,ER8-C-8-39,176,mm,176,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,77,MPa,Cylinder,648,mm,2177,kN,,,235.4,kN-m,weak,,,Weld failure after maximum strength
-Fujimoto et al. ,2004,ER8-C-8-58,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,77,MPa,Cylinder,648,mm,3275,kN,,,182.4,kN-m,weak,,,
-Fujimoto et al. ,2004,ER8-D-4-40,265,mm,265,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,3246,kN,,,446.2,kN-m,weak,,,
-Fujimoto et al. ,2004,ER8-D-4-60,265,mm,265,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,4864,kN,,,319.7,kN-m,weak,,,
-Mursi & Uy,2004,SL-C110,120,mm,120,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2174,mm,1481,kN,,,,,strong,,,Eccentrically loaded column with accidental end restraint (e = 10 mm)
-Mursi & Uy,2004,SL-C160,170,mm,170,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2416,mm,2126,kN,,,,,strong,,,Eccentrically loaded column with accidental end restraint (e = 15 mm)
-Mursi & Uy,2004,SL-C210,220,mm,220,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2416,mm,2939,kN,,,,,strong,,,Eccentrically loaded column with accidental end restraint (e = 20 mm)
-Mursi & Uy,2004,SL-C260,270,mm,270,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2817,mm,3062,kN,,,,,strong,,,Eccentrically loaded column with accidental end restraint (e = 25 mm)
-Fong et al.,2011,CFS tubular column-Fix,60,mm,60,mm,3,mm,ColdFormed,407.98,MPa,480.22,MPa,40.96,MPa,Cylinder/100mm,1000,mm,331.6,kN,0,kN-m,,,strong,yes,,
+Author ,Year,Specimen,H,H_units,B,B_units,t,t_units,SteelTubeType,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,KL,KL_units,Pexp,Pexp_units,M1exp,M1exp_units,M2exp,M2exp_units,BendingAxis,Tags,Notes
+Furlong,1967,BeamColumn-1,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,250,kips,,,310,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-2,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,150,kips,,,365,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-3,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,150,kips,,,430,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-4,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,100,kips,,,450,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-10,4,in,4,in,0.084,in,,48,ksi,,,3.4,ksi,,42,in,84,kips,,,44.3,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-11,4,in,4,in,0.084,in,,48,ksi,,,3.4,ksi,,42,in,84,kips,,,44.6,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-12,4,in,4,in,0.084,in,,48,ksi,,,3.4,ksi,,42,in,54.4,kips,,,91.7,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-13,4,in,4,in,0.084,in,,48,ksi,,,3.4,ksi,,42,in,20.2,kips,,,104.9,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-14,4,in,4,in,0.084,in,,48,ksi,,,3.4,ksi,,42,in,20.1,kips,,,114.1,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-20,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,98.4,kips,,,119,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-21,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,68.8,kips,,,162,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-22,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,67.8,kips,,,162,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-23,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,58.6,kips,,,190,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-24,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,29,kips,,,209,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-25,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,28.8,kips,,,193,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-26,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,9,kips,,,165,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-27,4,in,4,in,0.125,in,,48,ksi,,,4.18,ksi,,42,in,0,kips,,,204,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
+Tomii & Sakino,1979,I-0,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,245,kgscm,Cylinder,300,mm,0,tonne,,,0.73,tf-m,strong,,
+Tomii & Sakino,1979,I-1,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,390,kgscm,Cylinder,300,mm,7.8,tonne,,,1.04,tf-m,strong,,
+Tomii & Sakino,1979,I-2,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,390,kgscm,Cylinder,300,mm,16.1,tonne,,,1.14,tf-m,strong,,
+Tomii & Sakino,1979,I-3,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,390,kgscm,Cylinder,300,mm,19.5,tonne,,,1.14,tf-m,strong,,
+Tomii & Sakino,1979,I-5,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,390,kgscm,Cylinder,300,mm,27.3,tonne,,,1.17,tf-m,strong,,
+Tomii & Sakino,1979,I-6,10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,374,kgscm,Cylinder,300,mm,33.7,tonne,,,0.91,tf-m,strong,,
+Tomii & Sakino,1979,I-6',10,cm,10,cm,2.29,mm,ColdFormed,1.98,tscm,3.53,tscm,374,kgscm,Cylinder,300,mm,33.7,tonne,,,0.84,tf-m,strong,,
+Tomii & Sakino,1979,II-0,10,cm,10,cm,2.27,mm,ColdFormed,3.11,tscm,3.98,tscm,220,kgscm,Cylinder,300,mm,0,tonne,,,1.12,tf-m,strong,,
+Tomii & Sakino,1979,II-1,10,cm,10,cm,2.27,mm,ColdFormed,3.11,tscm,3.98,tscm,220,kgscm,Cylinder,300,mm,4.7,tonne,,,1.26,tf-m,strong,,
+Tomii & Sakino,1979,II-2,10,cm,10,cm,2.2,mm,ColdFormed,3.46,tscm,4.19,tscm,220,kgscm,Cylinder,300,mm,9.4,tonne,,,1.32,tf-m,strong,,
+Tomii & Sakino,1979,II-3,10,cm,10,cm,2.2,mm,ColdFormed,3.46,tscm,4.19,tscm,220,kgscm,Cylinder,300,mm,14.1,tonne,,,1.29,tf-m,strong,,
+Tomii & Sakino,1979,II-4,10,cm,10,cm,2.22,mm,ColdFormed,2.95,tscm,3.86,tscm,220,kgscm,Cylinder,300,mm,18.8,tonne,,,1.2,tf-m,strong,,
+Tomii & Sakino,1979,II-5,10,cm,10,cm,2.22,mm,ColdFormed,2.95,tscm,3.86,tscm,220,kgscm,Cylinder,300,mm,23.6,tonne,,,1.09,tf-m,strong,,
+Tomii & Sakino,1979,II-6,10,cm,10,cm,2.22,mm,ColdFormed,2.95,tscm,3.86,tscm,220,kgscm,Cylinder,300,mm,28.3,tonne,,,0.93,tf-m,strong,,
+Tomii & Sakino,1979,III-0,10,cm,10,cm,2.98,mm,ColdFormed,2.95,tscm,4.09,tscm,210,kgscm,Cylinder,300,mm,0,tonne,,,1.43,tf-m,strong,,
+Tomii & Sakino,1979,III-1,10,cm,10,cm,2.98,mm,ColdFormed,2.95,tscm,4.09,tscm,210,kgscm,Cylinder,300,mm,5.2,tonne,,,1.49,tf-m,strong,,
+Tomii & Sakino,1979,III-2,10,cm,10,cm,2.98,mm,ColdFormed,2.95,tscm,4.09,tscm,210,kgscm,Cylinder,300,mm,10.4,tonne,,,1.55,tf-m,strong,,
+Tomii & Sakino,1979,III-3,10,cm,10,cm,2.99,mm,ColdFormed,2.95,tscm,4.12,tscm,210,kgscm,Cylinder,300,mm,15.6,tonne,,,1.48,tf-m,strong,,
+Tomii & Sakino,1979,III-4,10,cm,10,cm,2.99,mm,ColdFormed,2.95,tscm,4.12,tscm,210,kgscm,Cylinder,300,mm,20.8,tonne,,,1.36,tf-m,strong,,
+Tomii & Sakino,1979,III-5,10,cm,10,cm,2.99,mm,ColdFormed,2.95,tscm,4.12,tscm,210,kgscm,Cylinder,300,mm,26,tonne,,,1.27,tf-m,strong,,
+Tomii & Sakino,1979,III-6,10,cm,10,cm,2.99,mm,ColdFormed,2.94,tscm,4.12,tscm,210,kgscm,Cylinder,300,mm,31.2,tonne,,,1.1,tf-m,strong,,
+Tomii & Sakino,1979,IV-0,10,cm,10,cm,4.25,mm,ColdFormed,2.9,tscm,4,tscm,190,kgscm,Cylinder,300,mm,0,tonne,,,1.87,tf-m,strong,,
+Tomii & Sakino,1979,IV-1,10,cm,10,cm,4.25,mm,ColdFormed,2.9,tscm,4,tscm,190,kgscm,Cylinder,300,mm,6.3,tonne,,,1.94,tf-m,strong,,
+Tomii & Sakino,1979,IV-2,10,cm,10,cm,4.25,mm,ColdFormed,2.9,tscm,4,tscm,190,kgscm,Cylinder,300,mm,12.6,tonne,,,1.92,tf-m,strong,,
+Tomii & Sakino,1979,IV-3,10,cm,10,cm,4.25,mm,ColdFormed,2.91,tscm,4.01,tscm,190,kgscm,Cylinder,300,mm,18.9,tonne,,,1.86,tf-m,strong,,
+Tomii & Sakino,1979,IV-4,10,cm,10,cm,4.25,mm,ColdFormed,2.91,tscm,4.01,tscm,202,kgscm,Cylinder,300,mm,25.6,tonne,,,1.77,tf-m,strong,,
+Tomii & Sakino,1979,IV-5,10,cm,10,cm,4.25,mm,ColdFormed,2.91,tscm,4.01,tscm,202,kgscm,Cylinder,300,mm,32,tonne,,,1.61,tf-m,strong,,
+Tomii & Sakino,1979,IV-6,10,cm,10,cm,4.26,mm,ColdFormed,2.94,tscm,4.05,tscm,202,kgscm,Cylinder,300,mm,38.3,tonne,,,1.43,tf-m,strong,,
+Varma,2000,BC-32-46-20,305,mm,305,mm,8.6,mm,ColdFormed,269,MPa,429,MPa,110,MPa,Cylinder,1.52,m,2520,kN,,,606,kN-m,strong,,
+Varma,2000,BC-32-46-40,305,mm,305,mm,8.6,mm,ColdFormed,269,MPa,429,MPa,110,MPa,Cylinder,1.52,m,5035,kN,,,543,kN-m,strong,,
+Varma,2000,BC-32-80-20,305,mm,305,mm,8.9,mm,ColdFormed,600,MPa,674,MPa,110,MPa,Cylinder,1.52,m,3050,kN,,,933,kN-m,strong,,
+Varma,2000,BC-32-80-40,305,mm,305,mm,8.9,mm,ColdFormed,600,MPa,674,MPa,110,MPa,Cylinder,1.52,m,6100,kN,,,806,kN-m,strong,,
+Varma,2000,BC-48-46-20,305,mm,305,mm,5.8,mm,ColdFormed,471,MPa,534,MPa,110,MPa,Cylinder,1.52,m,2360,kN,,,597,kN-m,strong,,
+Varma,2000,BC-48-46-22,305,mm,305,mm,5.8,mm,ColdFormed,471,MPa,534,MPa,110,MPa,Cylinder,1.52,m,2520,kN,,,629,kN-m,strong,,
+Varma,2000,BC-48-80-20,305,mm,305,mm,6.1,mm,ColdFormed,660,MPa,737,MPa,110,MPa,Cylinder,1.52,m,2740,kN,,,700,kN-m,strong,,
+Varma,2000,BC-48-80-40,305,mm,305,mm,6.1,mm,ColdFormed,660,MPa,737,MPa,110,MPa,Cylinder,1.52,m,5480,kN,,,574,kN-m,strong,,
+Fujimoto et al. ,2004,ER6-C-2-25,211,mm,211,mm,6.36,mm,ColdFormed,618,MPa,673,MPa,25.4,MPa,Cylinder,648,mm,1040,kN,,,253,kN-m,weak,,
+Fujimoto et al. ,2004,ER8-A-4-08,121,mm,121,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,226,kN,,,103,kN-m,weak,WeldFailure,Weld failure prior to maximum strength
+Fujimoto et al. ,2004,ER8-C-2-38,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,25.4,MPa,Cylinder,648,mm,1638,kN,,,203,kN-m,weak,,Weld failure after maximum strength
+Fujimoto et al. ,2004,ER8-C-2-57,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,25.4,MPa,Cylinder,648,mm,2461,kN,,,157.9,kN-m,weak,,
+Fujimoto et al. ,2004,ER8-C-4-24,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,1128,kN,,,211.8,kN-m,weak,WeldFailure,Weld failure prior to maximum strength
+Fujimoto et al. ,2004,ER8-C-4-38,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,1804,kN,,,212.8,kN-m,weak,,Weld failure after maximum strength
+Fujimoto et al. ,2004,ER8-C-4-57,176,mm,176,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,2697,kN,,,153,kN-m,weak,,
+Fujimoto et al. ,2004,ER8-C-8-39,176,mm,176,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,77,MPa,Cylinder,648,mm,2177,kN,,,235.4,kN-m,weak,,Weld failure after maximum strength
+Fujimoto et al. ,2004,ER8-C-8-58,175,mm,175,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,77,MPa,Cylinder,648,mm,3275,kN,,,182.4,kN-m,weak,,
+Fujimoto et al. ,2004,ER8-D-4-40,265,mm,265,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,3246,kN,,,446.2,kN-m,weak,,
+Fujimoto et al. ,2004,ER8-D-4-60,265,mm,265,mm,6.47,mm,ColdFormed,834,MPa,879,MPa,40.5,MPa,Cylinder,648,mm,4864,kN,,,319.7,kN-m,weak,,
+Mursi & Uy,2004,SL-C110,120,mm,120,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2174,mm,1481,kN,,,,,strong,,Eccentrically loaded column with accidental end restraint (e = 10 mm)
+Mursi & Uy,2004,SL-C160,170,mm,170,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2416,mm,2126,kN,,,,,strong,,Eccentrically loaded column with accidental end restraint (e = 15 mm)
+Mursi & Uy,2004,SL-C210,220,mm,220,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2416,mm,2939,kN,,,,,strong,,Eccentrically loaded column with accidental end restraint (e = 20 mm)
+Mursi & Uy,2004,SL-C260,270,mm,270,mm,5,mm,WeldedBox,761,MPa,813,MPa,20.34,MPa,Cylinder,2817,mm,3062,kN,,,,,strong,,Eccentrically loaded column with accidental end restraint (e = 25 mm)
+Fong et al.,2011,CFS tubular column-Fix,60,mm,60,mm,3,mm,ColdFormed,407.98,MPa,480.22,MPa,40.96,MPa,Cylinder/100mm,1000,mm,331.6,kN,0,kN-m,,,strong,,

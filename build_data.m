@@ -178,9 +178,6 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
             data(i).axis = S.BendingAxis{i};
         end
 
-        % Load Deformation
-        data(i).LoadDeformation = S.LoadDeformation{i};
-
         % Data Specific to Member Type
         switch memberType
             case 'C+PBC'

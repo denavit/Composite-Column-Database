@@ -1,65 +1,65 @@
-Author,Year,Specimen,D,D_units,t,t_units,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,Pexp,Pexp_units,M1exp,M1exp_units,M2exp,M2exp_units,KL,KL_units,LoadDeformation,Tags,Notes
-Furlong,1967,BeamColumn-5,4.5,in,0.125,in,60,ksi,,,4.2,ksi,,100,kips,,,100,k-in,30,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-6,4.5,in,0.125,in,60,ksi,,,4.2,ksi,,90,kips,,,106,k-in,30,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-7,4.5,in,0.125,in,60,ksi,,,4.2,ksi,,75,kips,,,131,k-in,30,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-8,4.5,in,0.125,in,60,ksi,,,4.2,ksi,,50,kips,,,141,k-in,30,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-9,4.5,in,0.125,in,60,ksi,,,4.2,ksi,,25,kips,,,144,k-in,30,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-15,6,in,0.061,in,48,ksi,,,3.75,ksi,,127.6,kips,,,88,k-in,40,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-16,6,in,0.061,in,48,ksi,,,3.75,ksi,,94.8,kips,,,157.6,k-in,40,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-17,6,in,0.061,in,48,ksi,,,3.75,ksi,,64.3,kips,,,152.7,k-in,40,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-18,6,in,0.061,in,48,ksi,,,3.05,ksi,,30.6,kips,,,143.4,k-in,40,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-19,6,in,0.061,in,48,ksi,,,3.05,ksi,,30.4,kips,,,133.1,k-in,40,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-28,5,in,0.095,in,42,ksi,,,5.1,ksi,,127.8,kips,,,78,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-29,5,in,0.095,in,42,ksi,,,5.1,ksi,,120,kips,,,112,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-30,5,in,0.095,in,42,ksi,,,5.1,ksi,,90,kips,,,141,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-31,5,in,0.095,in,42,ksi,,,5.1,ksi,,79,kips,,,140,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-32,5,in,0.095,in,42,ksi,,,5.1,ksi,,78.5,kips,,,126.4,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-33,5,in,0.095,in,42,ksi,,,5.1,ksi,,77.6,kips,,,140.5,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-34,5,in,0.095,in,42,ksi,,,5.1,ksi,,68.8,kips,,,150.5,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-35,5,in,0.095,in,42,ksi,,,5.1,ksi,,60,kips,,,156,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-36,5,in,0.095,in,42,ksi,,,5.1,ksi,,58.6,kips,,,155.5,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-37,5,in,0.095,in,42,ksi,,,5.1,ksi,,39.3,kips,,,145.6,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-38,5,in,0.095,in,42,ksi,,,5.1,ksi,,20,kips,,,140.8,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Furlong,1967,BeamColumn-39,5,in,0.095,in,42,ksi,,,5.1,ksi,,9.8,kips,,,130,k-in,42,in,no,,"Length from Task Group 20, SSRC (1979)"
-Prion & Boehme,1994,BP11,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,470,kN,,,29.7,kN-m,2120,mm,yes,,
-Prion & Boehme,1994,BP12,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,570,kN,,,32.1,kN-m,2120,mm,yes,,
-Prion & Boehme,1994,BP13,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,670,kN,,,28.5,kN-m,2120,mm,yes,,
-Prion & Boehme,1994,BP14,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,820,kN,,,29.2,kN-m,2120,mm,yes,,
-Prion & Boehme,1994,BP15,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,970,kN,,,30.5,kN-m,2120,mm,yes,,
-Prion & Boehme,1994,BP17,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,270,kN,,,30.1,kN-m,2120,mm,yes,,
-Prion & Boehme,1994,BP20,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,1273,kN,,,21.4,kN-m,1071,mm,no,,Large spherical bearing
-Prion & Boehme,1994,BP21,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,1451,kN,,,13.8,kN-m,1071,mm,no,,Large spherical bearing
-Prion & Boehme,1994,BP22,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,1309,kN,,,15.9,kN-m,1071,mm,no,,Large spherical bearing
-Fujimoto et al.,2004,EC4-A-4-035,150,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,359,kN,,,32,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC4-A-4-06,150,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,616,kN,,,36.5,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC4-C-2-035,159,mm,2.96,mm,283,MPa,408,MPa,25.4,MPa,Cylinder,840,kN,,,128.3,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC4-C-2-06,300,mm,2.96,mm,283,MPa,408,MPa,25.4,MPa,Cylinder,1442,kN,,,109.7,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC4-C-4-03,300,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,1060,kN,,,150,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC4-C-4-04,300,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,1413,kN,,,156.6,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC4-C-4-06,300,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,2120,kN,,,130.5,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC4-C-8-045,300,mm,2.96,mm,283,MPa,408,MPa,78.1,MPa,Cylinder,2720,kN,,,194.1,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC4-C-8-06,300,mm,2.96,mm,283,MPa,408,MPa,78.1,MPa,Cylinder,3627,kN,,,160.8,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC4-D-4-04,450,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,2968,kN,,,409.7,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC4-D-4-06,450,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,4452,kN,,,346.8,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC6-A-4-02,122,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,273,kN,,,46.9,kN-m,900,mm,,,Weld failure after maximum strength
-Fujimoto et al.,2004,EC6-A-4-06,122,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,817,kN,,,42.2,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC6-C-2-03,239,mm,4.54,mm,579,MPa,646,MPa,25.4,MPa,Cylinder,881,kN,,,156.9,kN-m,900,mm,,,Weld failure after maximum strength
-Fujimoto et al.,2004,EC6-C-2-06,239,mm,4.54,mm,579,MPa,646,MPa,25.4,MPa,Cylinder,1761,kN,,,132.3,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC6-C-4-025,239,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,897,kN,,,173.8,kN-m,900,mm,,WeldFailure,Weld failure prior to maximum strength
-Fujimoto et al.,2004,EC6-C-4-03,239,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,1077,kN,,,177.6,kN-m,900,mm,,,Weld failure after maximum strength
-Fujimoto et al.,2004,EC6-C-4-06,239,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,2153,kN,,,155.4,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC6-C-8-03,239,mm,4.54,mm,579,MPa,646,MPa,78.1,MPa,Cylinder,1556,kN,,,217.3,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC6-C-8-06,239,mm,4.54,mm,579,MPa,646,MPa,78.1,MPa,Cylinder,3113,kN,,,178.2,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC6-D-4-03,360,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,2050,kN,,,460.5,kN-m,900,mm,,WeldFailure,Weld failure prior to maximum strength
-Fujimoto et al.,2004,EC6-D-4-06,360,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,4099,kN,,,399.6,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC8-A-4-015,108,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,300,kN,,,48.2,kN-m,900,mm,,WeldFailure,Weld failure prior to maximum strength
-Fujimoto et al.,2004,EC8-A-4-06,108,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,1200,kN,,,53.8,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC8-C-2-06,222,mm,6.47,mm,834,MPa,879,MPa,25.4,MPa,Cylinder,2684,kN,,,219.8,kN-m,900,mm,,,Weld failure after maximum strength
-Fujimoto et al.,2004,EC8-C-2-08,222,mm,6.47,mm,834,MPa,879,MPa,25.4,MPa,Cylinder,3579,kN,,,149.3,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC8-C-4-015,222,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,753,kN,,,301.7,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC8-C-4-03,222,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,1506,kN,,,282.3,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC8-C-4-06,222,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,3016,kN,,,261.3,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC8-C-8-06,222,mm,6.47,mm,834,MPa,879,MPa,78.1,MPa,Cylinder,3789,kN,,,267,kN-m,900,mm,,WeldFailure,Weld failure prior to maximum strength
-Fujimoto et al.,2004,EC8-C-8-07,222,mm,6.47,mm,834,MPa,879,MPa,78.1,MPa,Cylinder,4421,kN,,,262,kN-m,900,mm,,,
-Fujimoto et al.,2004,EC8-D-4-015,336,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,1331,kN,,,604.1,kN-m,900,mm,,WeldFailure,Weld failure prior to maximum strength
-Fujimoto et al.,2004,EC8-D-4-045,336,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,3984,kN,,,648.1,kN-m,900,mm,,,
+Author,Year,Specimen,D,D_units,t,t_units,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,Pexp,Pexp_units,M1exp,M1exp_units,M2exp,M2exp_units,KL,KL_units,Tags,Notes
+Furlong,1967,BeamColumn-5,4.5,in,0.125,in,60,ksi,,,4.2,ksi,,100,kips,,,100,k-in,30,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-6,4.5,in,0.125,in,60,ksi,,,4.2,ksi,,90,kips,,,106,k-in,30,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-7,4.5,in,0.125,in,60,ksi,,,4.2,ksi,,75,kips,,,131,k-in,30,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-8,4.5,in,0.125,in,60,ksi,,,4.2,ksi,,50,kips,,,141,k-in,30,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-9,4.5,in,0.125,in,60,ksi,,,4.2,ksi,,25,kips,,,144,k-in,30,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-15,6,in,0.061,in,48,ksi,,,3.75,ksi,,127.6,kips,,,88,k-in,40,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-16,6,in,0.061,in,48,ksi,,,3.75,ksi,,94.8,kips,,,157.6,k-in,40,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-17,6,in,0.061,in,48,ksi,,,3.75,ksi,,64.3,kips,,,152.7,k-in,40,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-18,6,in,0.061,in,48,ksi,,,3.05,ksi,,30.6,kips,,,143.4,k-in,40,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-19,6,in,0.061,in,48,ksi,,,3.05,ksi,,30.4,kips,,,133.1,k-in,40,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-28,5,in,0.095,in,42,ksi,,,5.1,ksi,,127.8,kips,,,78,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-29,5,in,0.095,in,42,ksi,,,5.1,ksi,,120,kips,,,112,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-30,5,in,0.095,in,42,ksi,,,5.1,ksi,,90,kips,,,141,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-31,5,in,0.095,in,42,ksi,,,5.1,ksi,,79,kips,,,140,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-32,5,in,0.095,in,42,ksi,,,5.1,ksi,,78.5,kips,,,126.4,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-33,5,in,0.095,in,42,ksi,,,5.1,ksi,,77.6,kips,,,140.5,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-34,5,in,0.095,in,42,ksi,,,5.1,ksi,,68.8,kips,,,150.5,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-35,5,in,0.095,in,42,ksi,,,5.1,ksi,,60,kips,,,156,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-36,5,in,0.095,in,42,ksi,,,5.1,ksi,,58.6,kips,,,155.5,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-37,5,in,0.095,in,42,ksi,,,5.1,ksi,,39.3,kips,,,145.6,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-38,5,in,0.095,in,42,ksi,,,5.1,ksi,,20,kips,,,140.8,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Furlong,1967,BeamColumn-39,5,in,0.095,in,42,ksi,,,5.1,ksi,,9.8,kips,,,130,k-in,42,in,,"Length from Task Group 20, SSRC (1979)"
+Prion & Boehme,1994,BP11,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,470,kN,,,29.7,kN-m,2120,mm,,
+Prion & Boehme,1994,BP12,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,570,kN,,,32.1,kN-m,2120,mm,,
+Prion & Boehme,1994,BP13,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,670,kN,,,28.5,kN-m,2120,mm,,
+Prion & Boehme,1994,BP14,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,820,kN,,,29.2,kN-m,2120,mm,,
+Prion & Boehme,1994,BP15,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,970,kN,,,30.5,kN-m,2120,mm,,
+Prion & Boehme,1994,BP17,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,270,kN,,,30.1,kN-m,2120,mm,,
+Prion & Boehme,1994,BP20,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,1273,kN,,,21.4,kN-m,1071,mm,,Large spherical bearing
+Prion & Boehme,1994,BP21,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,1451,kN,,,13.8,kN-m,1071,mm,,Large spherical bearing
+Prion & Boehme,1994,BP22,152,mm,1.7,mm,328,MPa,,,92,MPa,Cylinder,1309,kN,,,15.9,kN-m,1071,mm,,Large spherical bearing
+Fujimoto et al.,2004,EC4-A-4-035,150,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,359,kN,,,32,kN-m,900,mm,,
+Fujimoto et al.,2004,EC4-A-4-06,150,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,616,kN,,,36.5,kN-m,900,mm,,
+Fujimoto et al.,2004,EC4-C-2-035,159,mm,2.96,mm,283,MPa,408,MPa,25.4,MPa,Cylinder,840,kN,,,128.3,kN-m,900,mm,,
+Fujimoto et al.,2004,EC4-C-2-06,300,mm,2.96,mm,283,MPa,408,MPa,25.4,MPa,Cylinder,1442,kN,,,109.7,kN-m,900,mm,,
+Fujimoto et al.,2004,EC4-C-4-03,300,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,1060,kN,,,150,kN-m,900,mm,,
+Fujimoto et al.,2004,EC4-C-4-04,300,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,1413,kN,,,156.6,kN-m,900,mm,,
+Fujimoto et al.,2004,EC4-C-4-06,300,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,2120,kN,,,130.5,kN-m,900,mm,,
+Fujimoto et al.,2004,EC4-C-8-045,300,mm,2.96,mm,283,MPa,408,MPa,78.1,MPa,Cylinder,2720,kN,,,194.1,kN-m,900,mm,,
+Fujimoto et al.,2004,EC4-C-8-06,300,mm,2.96,mm,283,MPa,408,MPa,78.1,MPa,Cylinder,3627,kN,,,160.8,kN-m,900,mm,,
+Fujimoto et al.,2004,EC4-D-4-04,450,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,2968,kN,,,409.7,kN-m,900,mm,,
+Fujimoto et al.,2004,EC4-D-4-06,450,mm,2.96,mm,283,MPa,408,MPa,40.7,MPa,Cylinder,4452,kN,,,346.8,kN-m,900,mm,,
+Fujimoto et al.,2004,EC6-A-4-02,122,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,273,kN,,,46.9,kN-m,900,mm,,Weld failure after maximum strength
+Fujimoto et al.,2004,EC6-A-4-06,122,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,817,kN,,,42.2,kN-m,900,mm,,
+Fujimoto et al.,2004,EC6-C-2-03,239,mm,4.54,mm,579,MPa,646,MPa,25.4,MPa,Cylinder,881,kN,,,156.9,kN-m,900,mm,,Weld failure after maximum strength
+Fujimoto et al.,2004,EC6-C-2-06,239,mm,4.54,mm,579,MPa,646,MPa,25.4,MPa,Cylinder,1761,kN,,,132.3,kN-m,900,mm,,
+Fujimoto et al.,2004,EC6-C-4-025,239,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,897,kN,,,173.8,kN-m,900,mm,WeldFailure,Weld failure prior to maximum strength
+Fujimoto et al.,2004,EC6-C-4-03,239,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,1077,kN,,,177.6,kN-m,900,mm,,Weld failure after maximum strength
+Fujimoto et al.,2004,EC6-C-4-06,239,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,2153,kN,,,155.4,kN-m,900,mm,,
+Fujimoto et al.,2004,EC6-C-8-03,239,mm,4.54,mm,579,MPa,646,MPa,78.1,MPa,Cylinder,1556,kN,,,217.3,kN-m,900,mm,,
+Fujimoto et al.,2004,EC6-C-8-06,239,mm,4.54,mm,579,MPa,646,MPa,78.1,MPa,Cylinder,3113,kN,,,178.2,kN-m,900,mm,,
+Fujimoto et al.,2004,EC6-D-4-03,360,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,2050,kN,,,460.5,kN-m,900,mm,WeldFailure,Weld failure prior to maximum strength
+Fujimoto et al.,2004,EC6-D-4-06,360,mm,4.54,mm,579,MPa,646,MPa,40.7,MPa,Cylinder,4099,kN,,,399.6,kN-m,900,mm,,
+Fujimoto et al.,2004,EC8-A-4-015,108,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,300,kN,,,48.2,kN-m,900,mm,WeldFailure,Weld failure prior to maximum strength
+Fujimoto et al.,2004,EC8-A-4-06,108,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,1200,kN,,,53.8,kN-m,900,mm,,
+Fujimoto et al.,2004,EC8-C-2-06,222,mm,6.47,mm,834,MPa,879,MPa,25.4,MPa,Cylinder,2684,kN,,,219.8,kN-m,900,mm,,Weld failure after maximum strength
+Fujimoto et al.,2004,EC8-C-2-08,222,mm,6.47,mm,834,MPa,879,MPa,25.4,MPa,Cylinder,3579,kN,,,149.3,kN-m,900,mm,,
+Fujimoto et al.,2004,EC8-C-4-015,222,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,753,kN,,,301.7,kN-m,900,mm,,
+Fujimoto et al.,2004,EC8-C-4-03,222,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,1506,kN,,,282.3,kN-m,900,mm,,
+Fujimoto et al.,2004,EC8-C-4-06,222,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,3016,kN,,,261.3,kN-m,900,mm,,
+Fujimoto et al.,2004,EC8-C-8-06,222,mm,6.47,mm,834,MPa,879,MPa,78.1,MPa,Cylinder,3789,kN,,,267,kN-m,900,mm,WeldFailure,Weld failure prior to maximum strength
+Fujimoto et al.,2004,EC8-C-8-07,222,mm,6.47,mm,834,MPa,879,MPa,78.1,MPa,Cylinder,4421,kN,,,262,kN-m,900,mm,,
+Fujimoto et al.,2004,EC8-D-4-015,336,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,1331,kN,,,604.1,kN-m,900,mm,WeldFailure,Weld failure prior to maximum strength
+Fujimoto et al.,2004,EC8-D-4-045,336,mm,6.47,mm,834,MPa,879,MPa,40.7,MPa,Cylinder,3984,kN,,,648.1,kN-m,900,mm,,
