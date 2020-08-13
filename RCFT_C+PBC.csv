@@ -494,6 +494,10 @@ Qu et al.,2013,PYA-9,300,mm,200,mm,5.73,mm,ColdFormed,336,MPa,533,MPa,39,MPa,Cub
 Ding et al.,2014,SST1-A,249.6,mm,249.6,mm,3.7,mm,WeldedBox,324.3,MPa,,,40.4,MPa,Cube,750,mm,0,mm,0,mm,strong,3131,kN,,,,
 Ding et al.,2014,SST1-B,251,mm,251,mm,3.75,mm,WeldedBox,324.3,MPa,,,40.4,MPa,Cube,750,mm,0,mm,0,mm,strong,2832,kN,,,,
 Ding et al.,2014,SST1-C,251.1,mm,251.1,mm,3.73,mm,WeldedBox,324.3,MPa,,,40.4,MPa,Cube,750,mm,0,mm,0,mm,strong,2677,kN,,,WeldFailure,Weld failure prior to maximum strength
+Liu et al.,2014,SC1,200,mm,200,mm,4,mm,WeldedBox,464,MPa,538,MPa,55.6,MPa,Cube,600,mm,0,mm,0,mm,strong,3318,kN,,,,
+Liu et al.,2014,SC2,300,mm,300,mm,4,mm,WeldedBox,464,MPa,538,MPa,55.6,MPa,Cube,900,mm,0,mm,0,mm,strong,6100,kN,,,,
+Liu et al.,2014,SC3,300,mm,300,mm,3,mm,WeldedBox,414,MPa,492,MPa,55.6,MPa,Cube,900,mm,0,mm,0,mm,strong,5958,kN,,,,
+Liu et al.,2014,SC4,300,mm,300,mm,8,mm,WeldedBox,424,MPa,515,MPa,55.6,MPa,Cube,900,mm,0,mm,0,mm,strong,8619,kN,,,,
 Aslani et al.,2015,SC1B,70,mm,70,mm,5,mm,WeldedBox,701,MPa,754,MPa,21,MPa,Cylinder,210,mm,0,mm,0,mm,strong,1367,kN,,,,Tubes had stiffener plates at the member ends
 Aslani et al.,2015,SC2B,100,mm,100,mm,5,mm,WeldedBox,701,MPa,754,MPa,21,MPa,Cylinder,300,mm,0,mm,0,mm,strong,1934,kN,,,,Tubes had stiffener plates at the member ends
 Aslani et al.,2015,SC3B,125,mm,125,mm,5,mm,WeldedBox,701,MPa,754,MPa,21,MPa,Cylinder,375,mm,0,mm,0,mm,strong,2348,kN,,,,Tubes had stiffener plates at the member ends
