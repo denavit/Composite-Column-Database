@@ -186,6 +186,8 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
                         data(i).L = S.L(i)*data(i).D;
                     case 'ratio_H'
                         data(i).L = S.L(i)*data(i).H;
+                    case 'ratio_B'
+                        data(i).L = S.L(i)*data(i).B;
                     otherwise
                         data(i).L = unitConvert('length',S.L(i),S.L_units{i},dbUnitSystem);
                 end
