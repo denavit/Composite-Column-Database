@@ -282,20 +282,30 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
                 % AISC 2016
                 if compute_AISC2016
                     section.option_EI = 'AISC2016';
-                    Pno       = section.Pnco;
                     EIelastic = 0.64*section.EIeff(data(i).axis);
-                    tauType   = 'Composite';
-                    [idP,idM] = section.beamColumnInteraction2d(data(i).axis,'AISC','CompPos');
-                    BA_Elastic = BenchmarkAnalysis2d_Elastic_Sidesway_Inhibited(...
-                        EIelastic,data(i).L,beta,0);
-                    [P,M2] = BA_Elastic.determinePeakLoadWithEccentricity(idM,idP,e,Pno,tauType);
-
-                    data(i).AISC2016_EIelastic           = EIelastic;
-                    data(i).AISC2016_Pno                 = Pno;
-                    data(i).AISC2016_P                   = -P;
-                    data(i).AISC2016_M1                  = -P*e;
-                    data(i).AISC2016_M2                  = M2;
-                    data(i).AISC2016_test_to_predicted   = -data(i).Pexp/P;
+                    
+                    if strcmpi(data(i).compactness,'notpermitted')
+                        data(i).AISC2016_EIelastic           = EIelastic;
+                        data(i).AISC2016_Pno                 = 0;
+                        data(i).AISC2016_P                   = 0;
+                        data(i).AISC2016_M1                  = 0;
+                        data(i).AISC2016_M2                  = 0;
+                        data(i).AISC2016_test_to_predicted   = Inf;
+                    else
+                        Pno       = section.Pnco;
+                        tauType   = 'Composite';
+                        [idP,idM] = section.beamColumnInteraction2d(data(i).axis,'AISC','CompPos');
+                        BA_Elastic = BenchmarkAnalysis2d_Elastic_Sidesway_Inhibited(...
+                            EIelastic,data(i).L,beta,0);
+                        [P,M2] = BA_Elastic.determinePeakLoadWithEccentricity(idM,idP,e,Pno,tauType);
+                        
+                        data(i).AISC2016_EIelastic           = EIelastic;
+                        data(i).AISC2016_Pno                 = Pno;
+                        data(i).AISC2016_P                   = -P;
+                        data(i).AISC2016_M1                  = -P*e;
+                        data(i).AISC2016_M2                  = M2;
+                        data(i).AISC2016_test_to_predicted   = -data(i).Pexp/P;
+                    end
                 end
                 
                 % Plastic Stress Distribution
