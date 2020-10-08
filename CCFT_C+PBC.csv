@@ -406,6 +406,15 @@ Matsui & Tsuda,1996,C30-0,16.52,cm,0.45,cm,4.22,tscm,5.03,tscm,417,kgscm,,79.7,t
 Matsui & Tsuda,1996,C30-1,16.52,cm,0.45,cm,4.22,tscm,5.03,tscm,417,kgscm,,48.8,tonne,,,2.07,cm,,,4956,mm,,
 Matsui & Tsuda,1996,C30-3,16.52,cm,0.45,cm,4.22,tscm,5.03,tscm,417,kgscm,,31.5,tonne,,,6.2,cm,,,4956,mm,,
 Matsui & Tsuda,1996,C30-5,16.52,cm,0.45,cm,4.22,tscm,5.03,tscm,417,kgscm,,24.3,tonne,,,10.32,cm,,,4956,mm,,
+Han,1997,HSC1,159.8,mm,6.3,mm,482.5,MPa,,,76.8,MPa,Cube/150mm,2350,kN,,,0,mm,,,476,mm,,Average of 3 specimens
+Han,1997,HSC2,115.9,mm,4.9,mm,309.5,MPa,,,76.8,MPa,Cube/150mm,1174,kN,,,0,mm,,,350,mm,,Average of 4 specimens
+Han,1997,HSC3,141.8,mm,4.3,mm,433,MPa,,,76.8,MPa,Cube/150mm,1618,kN,,,0,mm,,,420,mm,,Average of 3 specimens
+Han,1997,HSC4,114.8,mm,3.9,mm,357.7,MPa,,,76.8,MPa,Cube/150mm,1150,kN,,,0,mm,,,337,mm,,Average of 3 specimens
+Han,1997,HSC5,165.7,mm,5.1,mm,373.3,MPa,,,76.8,MPa,Cube/150mm,2309,kN,,,0,mm,,,494,mm,,Average of 3 specimens
+Han,1997,HSC6-1,133.1,mm,4.5,mm,324.3,MPa,,,76.8,MPa,Cube/150mm,1535,kN,,,0,mm,,,397,mm,,
+Han,1997,HSC7,113.6,mm,3.2,mm,354.6,MPa,,,76.8,MPa,Cube/150mm,1145,kN,,,0,mm,,,337,mm,,Average of 3 specimens
+Han,1997,HSC8-1,111.3,mm,2,mm,354.6,MPa,,,76.8,MPa,Cube/150mm,894,kN,,,0,mm,,,339,mm,,
+Han,1997,HSC9-1,130.6,mm,2.3,mm,324.3,MPa,,,76.8,MPa,Cube/150mm,1250,kN,,,0,mm,,,396,mm,,
 O'Shea & Bridge,1997a,R12CF1,190,mm,1.11,mm,203.1,MPa,299,MPa,110.3,MPa,Cylinder,3030,kN,,,0,mm,,,662,mm,,
 O'Shea & Bridge,1997a,R12CF2,190,mm,1.11,mm,203.1,MPa,299,MPa,110.3,MPa,Cylinder,2940,kN,,,0,mm,,,656,mm,,
 O'Shea & Bridge,1997a,R12CF3,190,mm,1.11,mm,203.1,MPa,299,MPa,110.3,MPa,Cylinder,3140,kN,,,0,mm,,,662,mm,,
