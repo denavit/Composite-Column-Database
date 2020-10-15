@@ -719,6 +719,12 @@ Qu et al.,2013,PYA-9,300,mm,200,mm,5.73,mm,ColdFormed,336,MPa,533,MPa,39,MPa,Cub
 Ding et al.,2014,SST1-A,249.6,mm,249.6,mm,3.7,mm,WeldedBox,324.3,MPa,,,40.4,MPa,Cube,750,mm,0,mm,0,mm,strong,3131,kN,,,,
 Ding et al.,2014,SST1-B,251,mm,251,mm,3.75,mm,WeldedBox,324.3,MPa,,,40.4,MPa,Cube,750,mm,0,mm,0,mm,strong,2832,kN,,,,
 Ding et al.,2014,SST1-C,251.1,mm,251.1,mm,3.73,mm,WeldedBox,324.3,MPa,,,40.4,MPa,Cube,750,mm,0,mm,0,mm,strong,2677,kN,,,WeldFailure,Weld failure prior to maximum strength
+Liu,2014,CS-4-1,150,mm,150,mm,4,mm,ColdFormed,434.6,MPa,546.2,MPa,97.7,MPa,Cube,450,mm,0,mm,,,strong,2820,kN,,,,
+Liu,2014,CS-4-2,150,mm,150,mm,4,mm,ColdFormed,430,MPa,547,MPa,97.7,MPa,Cube,450,mm,0,mm,,,strong,2950,kN,,,,
+Liu,2014,CS-5-1,150,mm,150,mm,5,mm,ColdFormed,416.3,MPa,513.7,MPa,97.7,MPa,Cube,450,mm,0,mm,,,strong,2980,kN,,,,
+Liu,2014,CS-5-2,150,mm,150,mm,5,mm,ColdFormed,420,MPa,516,MPa,97.7,MPa,Cube,450,mm,0,mm,,,strong,3035,kN,,,,
+Liu,2014,CS-6-1,150,mm,150,mm,6,mm,ColdFormed,430,MPa,545,MPa,97.7,MPa,Cube,450,mm,0,mm,,,strong,3257,kN,,,,
+Liu,2014,CS-6-2,150,mm,150,mm,6,mm,ColdFormed,436.9,MPa,550.4,MPa,97.7,MPa,Cube,450,mm,0,mm,,,strong,3435,kN,,,,
 Liu et al.,2014,SC1,200,mm,200,mm,4,mm,WeldedBox,464,MPa,538,MPa,55.6,MPa,Cube,600,mm,0,mm,,,strong,3318,kN,,,,
 Liu et al.,2014,SC2,300,mm,300,mm,4,mm,WeldedBox,464,MPa,538,MPa,55.6,MPa,Cube,900,mm,0,mm,,,strong,6100,kN,,,,
 Liu et al.,2014,SC3,300,mm,300,mm,3,mm,WeldedBox,414,MPa,492,MPa,55.6,MPa,Cube,900,mm,0,mm,,,strong,5958,kN,,,,
