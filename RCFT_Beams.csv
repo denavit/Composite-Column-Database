@@ -43,4 +43,5 @@ Li et al.,2017,SCW3-2,150,mm,150,mm,6,mm,ColdFormed,436.9,MPa,550.4,MPa,98,MPa,C
 Liu et al.,2017,BS0,200,mm,200,mm,4,mm,WeldedBox,334,MPa,481,MPa,56,MPa,Cube,strong,97.46,kN-m,,
 Xiong et al.,2017c,N4-SS,200,mm,200,mm,12.5,mm,WeldedBox,465,MPa,559,MPa,180,MPa,Cylinder/100mm,strong,361,kN-m,,
 Xiong et al.,2017c,N5-SS,200,mm,200,mm,12,mm,WeldedBox,756,MPa,825,MPa,180,MPa,Cylinder/100mm,strong,599,kN-m,,
-Xiong et al.,2017c,N6-SS,200,mm,200,mm,12,mm,WeldedBox,756,MPa,825,MPa,180,MPa,Cylinder/100mm,strong,590,kN-m,,
+Xiong et al.,2017c,N6-SS,200,mm,200,mm,12,mm,WeldedBox,756,MPa,825,MPa,180,MPa,Cylinder/100mm,strong,590,kN-m,,Huang et al.,2020,PB-70,130,mm,130,mm,5,mm,WeldedBox,1030.6,MPa,1075.6,MPa,75.6,MPa,Cylinder/100mm,strong,146.2,kN-m,,
+Huang et al.,2020,PB-100,130,mm,130,mm,5,mm,WeldedBox,1030.6,MPa,1075.6,MPa,125.4,MPa,Cylinder/100mm,strong,150.1,kN-m,,
