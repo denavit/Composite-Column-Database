@@ -1001,6 +1001,12 @@ Portoles et al.,2013,14,159,mm,6,mm,487,MPa,,,116,MPa,Cylinder,2193,kN,,,0,mm,,,
 Portoles et al.,2013,15,159,mm,6,mm,380,MPa,,,109.8,MPa,Cylinder,1462,kN,,,20,mm,,,2135,mm,,
 Portoles et al.,2013,16,159,mm,6,mm,487,MPa,,,110.7,MPa,Cylinder,1525,kN,,,20,mm,,,2135,mm,,
 Portoles et al.,2013,17,159,mm,6,mm,444,MPa,,,91.4,MPa,Cylinder,1033,kN,,,50,mm,,,2135,mm,,
+Karmazínová,2015,TS2,152,mm,4.5,mm,356.4,MPa,,,27,MPa,Cylinder,945,kN,,,0,mm,,,3000,mm,,Average of 3 specimens
+Karmazínová,2015,TS3,152,mm,4.5,mm,356.4,MPa,,,87.1,MPa,Cylinder,1499,kN,,,0,mm,,,3000,mm,,"3 specimens tested: 1 test only valid – global buckling failure, 2 tests invalid – local buckling failure "
+Karmazínová,2015,TS5,159,mm,4.5,mm,344.4,MPa,,,56.7,MPa,Cylinder,1422,kN,,,0,mm,,,3000,mm,,Average of 3 specimens
+Karmazínová,2015,TS6,159,mm,4.5,mm,344.4,MPa,,,82.1,MPa,Cylinder,1525,kN,,,0,mm,,,3000,mm,,Average of 3 specimens
+Karmazínová,2015,TS8,159,mm,4.5,mm,475.4,MPa,,,56.7,MPa,Cylinder,1709,kN,,,0,mm,,,3000,mm,,Average of 3 specimens
+Karmazínová,2015,TS9,159,mm,4.5,mm,475.4,MPa,,,82.1,MPa,Cylinder,1744,kN,,,0,mm,,,3000,mm,,Average of 3 specimens
 Ekmekyapar & AL-Eliwi,2016,114.3-2.74-300-56,114.3,mm,2.74,mm,235,MPa,,,56.2,MPa,Cylinder,901.81,kN,,,0,mm,,,300,mm,,
 Ekmekyapar & AL-Eliwi,2016,114.3-2.74-300-66,114.3,mm,2.74,mm,235,MPa,,,66.75,MPa,Cylinder,981.23,kN,,,0,mm,,,300,mm,,
 Ekmekyapar & AL-Eliwi,2016,114.3-2.74-300-107,114.3,mm,2.74,mm,235,MPa,,,107.2,MPa,Cylinder,1295.06,kN,,,0,mm,,,300,mm,,
