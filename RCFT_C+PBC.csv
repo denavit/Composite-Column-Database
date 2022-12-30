@@ -722,9 +722,9 @@ Huang et al.,2011a,CUS16-3,160,mm,160,mm,2.5,mm,WeldedBox,230,MPa,,,50.01,MPa,Cu
 Huang et al.,2011a,CUS16-4,160,mm,160,mm,2.5,mm,WeldedBox,230,MPa,,,47.6,MPa,Cube,1850,mm,0,mm,,,strong,1290,kN,,,,
 Huang et al.,2011a,CUS16-5,160,mm,160,mm,2.5,mm,WeldedBox,230,MPa,,,47.6,MPa,Cube,1850,mm,25,mm,,,strong,851,kN,,,,
 Huang et al.,2011a,CUS16-6,160,mm,160,mm,2.5,mm,WeldedBox,230,MPa,,,47.6,MPa,Cube,1850,mm,50,mm,,,strong,625,kN,,,,
-Huang et al.,2011b,CUS16,160,mm,160,mm,2.5,mm,WeldedBox,221,MPa,,,40.6,MPa,Cube,3,ratio_B,0,mm,,,strong,1150,kN,,,,
-Huang et al.,2011b,CUS22,160,mm,160,mm,2.5,mm,WeldedBox,221,MPa,,,40.6,MPa,Cube,3,ratio_B,0,mm,,,strong,2060,kN,,,,
-Huang et al.,2011b,CUS28,160,mm,160,mm,2.5,mm,WeldedBox,221,MPa,,,40.6,MPa,Cube,3,ratio_B,0,mm,,,strong,3350,kN,,,,
+Huang et al.,2011b,CUS16,160,mm,160,mm,2.5,mm,WeldedBox,221,MPa,,,40.6,MPa,Cube/150mm,3,ratio_B,0,mm,,,strong,1150,kN,,,,
+Huang et al.,2011b,CUS22,220,mm,220,mm,2.5,mm,WeldedBox,221,MPa,,,43.1,MPa,Cube/150mm,3,ratio_B,0,mm,,,strong,2060,kN,,,,
+Huang et al.,2011b,CUS28,280,mm,280,mm,2.5,mm,WeldedBox,202,MPa,,,47,MPa,Cube/150mm,3,ratio_B,0,mm,,,strong,3350,kN,,,,
 Chen et al.,2012,AA-48,500,mm,500,mm,10,mm,WeldedBox,389,MPa,504,MPa,42.5,MPa,Cylinder,1500,mm,0,mm,,,strong,16.5,MN,,,,Average of two sepecimens
 Chen et al.,2012,AA-40,500,mm,500,mm,12,mm,WeldedBox,378,MPa,503,MPa,42.5,MPa,Cylinder,1500,mm,0,mm,,,strong,17.9,MN,,,,
 Chen et al.,2012,AA-32,410,mm,410,mm,12,mm,WeldedBox,378,MPa,503,MPa,42.5,MPa,Cylinder,1230,mm,0,mm,,,strong,12.8,MN,,,,
