@@ -22,6 +22,7 @@ dbUnitSystem = unitSystem(dbUnits);
 % Options
 compute_AISC2016     = false;
 compute_PSD          = false;
+compute_Appendix2    = false;
 compute_ACDB         = false;
 compute_Analysis_PfD = false;
 save_section_obj     = true;
@@ -328,6 +329,28 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
                     data(i).PSD_P = P;
                     data(i).PSD_M = M;
                     data(i).PSD_test_to_predicted = data(i).Pexp/Ppsd;
+                end
+                
+                % 2022 Specification Appendix 2 Method
+                if compute_Appendix2 && strcmp(sectionType,'RCFT')
+                    psd = section.plasticStressDistributionObject_HS();
+                    num_points = 50;
+                    switch lower(data(i).axis)
+                        case {'x','strong'}
+                            [P,M,~] = psd.interactionSweep(0,num_points);
+                        case {'y','weak'}
+                            [P,~,M] = psd.interactionSweep(pi/2,num_points);
+                        otherwise
+                            error('Bad axis: %s',data(i).axis);
+                    end
+                    
+                    id = interactionDiagram2d(M,-P);
+                    Pmax = 1.1*max(-P);
+                    [~,P_app2] = id.findIntersection(linspace(0,e*Pmax,100),linspace(0,Pmax,100));
+                    
+                    data(i).App2_P = P;
+                    data(i).App2_M = M;
+                    data(i).App2_test_to_predicted = data(i).Pexp/P_app2;
                 end                
                 
                 % Trial ACDB Interaction
@@ -432,10 +455,30 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
                     Mmax = 1.1*max(M);
                     [Mpsd,~] = id.findIntersection(linspace(0,Mmax,100),linspace(0,0,100));
                     
-                    data(i).PSD_P = P;
                     data(i).PSD_M = M;
                     data(i).PSD_test_to_predicted = data(i).Mexp/Mpsd;
-                end                 
+                end
+                
+                % 2022 Specification Appendix 2 Method
+                if compute_Appendix2 && strcmp(sectionType,'RCFT')
+                    psd = section.plasticStressDistributionObject_HS();
+                    num_points = 50;
+                    switch lower(data(i).axis)
+                        case {'x','strong'}
+                            [P,M,~] = psd.interactionSweep(0,num_points);
+                        case {'y','weak'}
+                            [P,~,M] = psd.interactionSweep(pi/2,num_points);
+                        otherwise
+                            error('Bad axis: %s',data(i).axis);
+                    end
+                    
+                    id = interactionDiagram2d(M,-P);
+                    Mmax = 1.1*max(M);
+                    [Mapp2,~] = id.findIntersection(linspace(0,Mmax,100),linspace(0,0,100));
+                    
+                    data(i).App2_M = Mapp2;
+                    data(i).App2_test_to_predicted = data(i).Mexp/Mapp2;
+                end       
                 
             case 'Other'
 
