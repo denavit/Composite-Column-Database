@@ -2,4 +2,5 @@
 *.asv
 *.fig
 *.tif
+*.png
 download_files.m
