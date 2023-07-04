@@ -173,7 +173,7 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
 
         % Bending Axis
         if strcmp(sectionType,'CCFT')
-            data(i).axis = 'weak';
+            data(i).axis = 'x';
         else
             data(i).axis = S.BendingAxis{i};
         end
@@ -313,9 +313,9 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
                     psd = section.plasticStressDistributionObject();
                     num_points = 50;
                     switch lower(data(i).axis)
-                        case 'strong'
+                        case {'x','strong'}
                             [P,M,~] = psd.interactionSweep(0,num_points);
-                        case 'weak'
+                        case {'y','weak'}
                             [P,~,M] = psd.interactionSweep(pi/2,num_points);
                         otherwise
                             error('Bad axis: %s',data(i).axis);
@@ -420,9 +420,9 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
                     psd = section.plasticStressDistributionObject();
                     num_points = 50;
                     switch lower(data(i).axis)
-                        case 'strong'
+                        case {'x','strong'}
                             [P,M,~] = psd.interactionSweep(0,num_points);
-                        case 'weak'
+                        case {'y','weak'}
                             [P,~,M] = psd.interactionSweep(pi/2,num_points);
                         otherwise
                             error('Bad axis: %s',data(i).axis);
