@@ -85,7 +85,7 @@ for i = [startSpecimen:numData 1:(startSpecimen-1)]
         switch lower(S.fc_type{i})
             case {'cube','cube/100mm','cube/150mm','cube/200mm'}
                 data(i).fc = 0.71*unitConvert('stress',S.fc(i),S.fc_units{i},dbUnitSystem);
-            case {'','cylinder','cylinder/100mm','cylinder/150mm','cylinder/4in'}
+            case {'','cylinder','cylinder/100mm','cylinder/150mm','cylinder/4in','prism/100mm'}
                 data(i).fc = unitConvert('stress',S.fc(i),S.fc_units{i},dbUnitSystem);
             otherwise
                 error('Unknown fc type: %s',S.fc_type{i});
