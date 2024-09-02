@@ -736,6 +736,8 @@ Cai et al.,2009,C10,300,mm,300,mm,12,mm,WeldedBox,345.04,MPa,,,52.39,MPa,Cube,15
 Cai et al.,2009,C13,300,mm,300,mm,6,mm,WeldedBox,292.48,MPa,,,52.39,MPa,Cube,1500,mm,0,mm,,,strong,4370,kN,,,,
 Cai et al.,2009,B1,300,mm,150,mm,6,mm,WeldedBox,465,MPa,,,39.79,MPa,Cube,1200,mm,0,mm,,,strong,4339,kN,,,,
 Fong et al.,2011,CFS tubular column-Pin,60,mm,60,mm,3,mm,ColdFormed,407.98,MPa,480.22,MPa,40.96,MPa,Cylinder/100mm,2000,mm,0,mm,,,strong,186.88,kN,,,,
+Han et al.,2011,SL2-s,114,mm,114,mm,3.1,mm,WeldedBox,318,MPa,395,MPa,45,MPa,Cube,1720,mm,15,mm,,,strong,581,kN,,,,
+Han et al.,2011,SL3-s,114,mm,114,mm,3.1,mm,WeldedBox,318,MPa,395,MPa,45,MPa,Cube,1720,mm,30,mm,,,strong,489,kN,,,,
 Huang et al.,2011a,CUS16-1,160,mm,160,mm,2.5,mm,WeldedBox,230,MPa,,,50.01,MPa,Cube,950,mm,0,mm,,,strong,1370,kN,,,,
 Huang et al.,2011a,CUS16-2,160,mm,160,mm,2.5,mm,WeldedBox,230,MPa,,,50.01,MPa,Cube,950,mm,25,mm,,,strong,980,kN,,,,
 Huang et al.,2011a,CUS16-3,160,mm,160,mm,2.5,mm,WeldedBox,230,MPa,,,50.01,MPa,Cube,950,mm,50,mm,,,strong,715,kN,,,,
