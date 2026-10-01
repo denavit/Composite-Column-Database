@@ -4,3 +4,4 @@
 *.tif
 *.png
 download_files.m
+*.json
