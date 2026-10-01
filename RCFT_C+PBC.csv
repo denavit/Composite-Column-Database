@@ -1,4 +1,4 @@
-Author ,Year,Specimen,H,H_units,B,B_units,t,t_units,SteelTubeType,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,L,L_units,et,et_units,eb,eb_units,BendingAxis,Pexp,Pexp_units,d_at_Pexp,d_at_Pexp_units,Tags,Notes
+Author,Year,Specimen,H,H_units,B,B_units,t,t_units,SteelTubeType,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,L,L_units,et,et_units,eb,eb_units,BendingAxis,Pexp,Pexp_units,d_at_Pexp,d_at_Pexp_units,Tags,Notes
 Chapman & Neogi,1966,DF3,4.5,in,4.5,in,0.379,in,,36850,psi,,,4660,psi,cylinder,16,in,0,in,,,strong,549,kips,,,,Data from Knowles and Park (1970)
 Chapman & Neogi,1966,DF4,4.522,in,4.522,in,0.173,in,,36850,psi,,,4660,psi,cylinder,16,in,0,in,,,strong,201.6,kips,,,,Data from Knowles and Park (1970)
 Furlong,1967,Column-3,5,in,5,in,0.084,in,,70.3,ksi,,,6.5,ksi,cylinder,36,in,0,in,,,strong,360,kips,,,,Length from Knowles and Park (1970)

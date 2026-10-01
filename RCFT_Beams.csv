@@ -1,4 +1,4 @@
-Author ,Year,Specimen,H,H_units,B,B_units,t,t_units,SteelTubeType,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,BendingAxis,Mexp,Mexp_units,Tags,Notes
+Author,Year,Specimen,H,H_units,B,B_units,t,t_units,SteelTubeType,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,BendingAxis,Mexp,Mexp_units,Tags,Notes
 Lu & Kennedy,1994,CB12,152.4,mm,152.4,mm,4.43,mm,ColdFormed,389,MPa,,,47,MPa,Cylinder,strong,73.6,kN-m,,
 Lu & Kennedy,1994,CB13,152.4,mm,152.4,mm,4.43,mm,ColdFormed,389,MPa,,,42.8,MPa,Cylinder,strong,75.1,kN-m,,
 Lu & Kennedy,1994,CB15,152.4,mm,152.4,mm,4.43,mm,ColdFormed,389,MPa,,,41.2,MPa,Cylinder,strong,71.3,kN-m,,

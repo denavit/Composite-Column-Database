@@ -1,4 +1,4 @@
-Author ,Year,Specimen,H,H_units,B,B_units,t,t_units,SteelTubeType,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,KL,KL_units,Pexp,Pexp_units,M1exp,M1exp_units,M2exp,M2exp_units,BendingAxis,Tags,Notes
+Author,Year,Specimen,H,H_units,B,B_units,t,t_units,SteelTubeType,Fy,Fy_units,Fu,Fu_units,fc,fc_units,fc_type,KL,KL_units,Pexp,Pexp_units,M1exp,M1exp_units,M2exp,M2exp_units,BendingAxis,Tags,Notes
 Furlong,1967,BeamColumn-1,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,250,kips,,,310,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
 Furlong,1967,BeamColumn-2,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,150,kips,,,365,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
 Furlong,1967,BeamColumn-3,5,in,5,in,0.189,in,,70.3,ksi,,,6.5,ksi,,42,in,150,kips,,,430,k-in,strong,,"Length from Task Group 20, SSRC (1979)"
