@@ -94,6 +94,10 @@ Guler et al.,2012,BF3-3,80.07,mm,80.15,mm,3.01,mm,ColdFormed,277,MPa,380,MPa,152
 Guler et al.,2012,BF4-1,79.97,mm,80.14,mm,4.04,mm,ColdFormed,268,MPa,367,MPa,154.1,MPa,Cube,strong,18.13,kN-m,,
 Guler et al.,2012,BF4-2,80.12,mm,80.09,mm,4.03,mm,ColdFormed,268,MPa,367,MPa,154.1,MPa,Cube,strong,17.03,kN-m,,
 Guler et al.,2012,BF4-3,79.98,mm,80.11,mm,4.02,mm,ColdFormed,268,MPa,367,MPa,154.1,MPa,Cube,strong,17.35,kN-m,,
+Jiang et al.,2013,S-150-2.0,150.1,mm,149.7,mm,2,mm,ColdFormed,397,MPa,,,56,MPa,Cube/150mm,strong,31.1,kN-m,,"The top two adijacent corners are cold formed, the bottom two adjacent corners are welded"
+Jiang et al.,2013,R-100-200-2.0,100.2,mm,200.2,mm,2,mm,ColdFormed,401,MPa,,,56,MPa,Cube/150mm,strong,27.06,kN-m,,"The top two adijacent corners are cold formed, the bottom two adjacent corners are welded"
+Jiang et al.,2013,S-150-3.0,149.9,mm,150.2,mm,3,mm,ColdFormed,392,MPa,,,56,MPa,Cube/150mm,strong,47.42,kN-m,,"The top two adijacent corners are cold formed, the bottom two adjacent corners are welded"
+Jiang et al.,2013,R-100-200-3.0,100.2,mm,200.2,mm,3,mm,ColdFormed,402,MPa,,,56,MPa,Cube/150mm,strong,34.45,kN-m,,"The top two adijacent corners are cold formed, the bottom two adjacent corners are welded"
 Li et al.,2017,SCW1-1,150,mm,150,mm,4,mm,ColdFormed,435.56,MPa,546.2,MPa,98,MPa,Cube,strong,70.1,kN-m,,
 Li et al.,2017,SCW1-2,150,mm,150,mm,4,mm,ColdFormed,430,MPa,547,MPa,98,MPa,Cube,strong,65.9,kN-m,,
 Li et al.,2017,SCW2-1,150,mm,150,mm,5,mm,ColdFormed,420,MPa,516,MPa,98,MPa,Cube,strong,90.3,kN-m,,
