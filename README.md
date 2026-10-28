@@ -11,6 +11,8 @@ The Python and MATLAB code in this repository is licensed under the [MIT License
 
 Users are free to use, reproduce, modify, and redistribute the database and associated code, subject to the terms of these licenses.
 
-If you use this database in research, publications, or other technical work, please cite the "Steel-Concrete Composite Column Database" and any relevant original experimental studies. 
+**Citation**: If you use this database in research, publications, or other technical work, please cite the "Steel-Concrete Composite Column Database" and any relevant original experimental studies. A preferred citation for this database is provided below:
+
+Denavit, M. (2005). Steel-Concrete Composite Column Database [Data set]. GitHub. https://github.com/denavit/Composite-Column-Database
 
 The database compiles experimental results from previously published research. Users should consult and appropriately cite the original experimental studies when using their results.
