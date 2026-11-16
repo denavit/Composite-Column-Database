@@ -66,6 +66,7 @@ td {
 <ul>
   <li><pre>CCFT</pre> - circular concrete-filled steel tubes</li>
   <li><pre>RCFT</pre> - rectangular concrete-filled steel tubes</li>
+  <li><pre>DSCFT</pre> - double-skin concrete-filled steel tubes</li>
   <li><pre>SRC</pre> - steel-reinforced concrete</li>
 </ul>
 
@@ -78,7 +79,7 @@ td {
 
 To be included in the database, each specimen must 1) have obtained member strength in a physical experiment; 2) be described in a published work (preferably a peer-reviewed journal publication); and 3) be capable of being accurately described by the fields in this database. The following were excluded:
 <ul>
-  <li>Other section types (such as hollow tubes, sandwich tubes, and members with stiffeners)</li>
+  <li>Other section types (such as hollow tubes and members with stiffeners)</li>
   <li>Other types of loading (such as primarily shear or torsion)</li>
   <li>Cyclically loaded specimens</li>
   <li>Special member types (such as curved members)</li>
@@ -108,6 +109,10 @@ To be included in the database, each specimen must 1) have obtained member stren
       <td>1129 specimens</td> 
     </tr>
     <tr>
+      <td><pre>DSCFT_C+PBC</pre></td>
+      <td>0 specimens</td>
+    </tr>
+    <tr>
       <td><pre>SRC_C+PBC</pre></td>
       <td>166 specimens</td> 
     </tr>
@@ -118,6 +123,10 @@ To be included in the database, each specimen must 1) have obtained member stren
     <tr>
       <td><pre>RCFT_Beams</pre></td>
       <td>129 specimens</td> 
+    </tr>
+    <tr>
+      <td><pre>DSCFT_Beams</pre></td>
+      <td>0 specimens</td>
     </tr>
     <tr>
       <td><pre>CCFT_Other</pre></td>
@@ -183,7 +192,35 @@ To be included in the database, each specimen must 1) have obtained member stren
     </ul>  
   </li>
 </ul>
-    
+
+<h4>Section Data Specific to DSCFT Members</h4>
+<h5>Outer Steel Tube</h5>
+<ul>
+  <li><pre>Do, Do_units</pre> - Measured outside diameter of the outer steel tube and associated length units if tube is circular</li>
+  <li><pre>Bo, Bo_units</pre> - Measured width of the outer steel tube and associated length units if tube is rectangular</li>
+  <li><pre>Ho, Ho_units</pre> - Measured height of the outer steel tube and associated length units if tube is rectangular</li>
+  <li><pre>to, to_units</pre> - Measured thickness of the outer steel tube and associated length units</li>
+  <li><pre>OuterTubeType</pre> - Type of steel tube used for the specimen if rectangular. Tube types include:
+    <ul>
+      <li><pre>ColdFormed</pre></li>
+      <li><pre>WeldedBox</pre></li>
+    </ul>
+  </li>
+</ul>
+<h5>Inner Steel Tube</h5>    
+<ul>
+  <li><pre>Di, Di_units</pre> - Measured inside diameter of the inner steel tube and associated length units if tube is circular</li>
+  <li><pre>Bi, Bi_units</pre> - Measured width of the inner steel tube and associated length units if tube is rectangular</li>
+  <li><pre>Hi, Hi_units</pre> - Measured height of the inner steel tube and associated length units if tube is rectangular</li>
+  <li><pre>ti, ti_units</pre> - Measured thickness of the inner steel tube and associated length units</li>
+  <li><pre>InnerTubeType</pre> - Type of steel tube used for the specimen if rectangular. Tube types include:
+    <ul>
+      <li><pre>ColdFormed</pre></li>
+      <li><pre>WeldedBox</pre></li>
+    </ul>
+  </li>
+</ul>
+
 <h4>Section Data Specific to SRC Members</h4>
 <ul>
   <li><pre>B, B_units</pre> - Measured overall width of the composite cross section and associated length units</li>
