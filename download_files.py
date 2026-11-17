@@ -60,5 +60,7 @@ if __name__ == "__main__":
             "RCFT_Beams": 6,
             "CCFT_Other": 4,
             "RCFT_Other": 5,
+            "DSCFT_C+PBC": 844370490,
+            "DSCFT_Beams": 2141479744,
         },
     )
